@@ -12,7 +12,7 @@ KERNEL_PATH := $(DEVICE_PATH)-kernel
 TARGET_IS_TABLET := true
 
 # AAPT
-PRODUCT_AAPT_CONFIG := normal
+PRODUCT_AAPT_CONFIG := normal mdpi hdpi xhdpi
 PRODUCT_AAPT_PREF_CONFIG := mdpi
 
 # Boot animation
