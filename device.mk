@@ -243,6 +243,7 @@ PRODUCT_PACKAGES += \
     SettingsProviderResXun \
     SettingsResXun \
     SystemUIResXun \
+    TetheringResXun \
     WifiResXun
 
 # Overlays Lineage
