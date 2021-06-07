@@ -25,3 +25,6 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="xun-user 15 AQ3A.240829.003 OS2.0.1.0.VMUCNXM release-keys" \
     BuildFingerprint=Redmi/xun/xun:15/AQ3A.240829.003/OS2.0.1.0.VMUCNXM:user/release-keys
+
+# Time
+LINEAGE_VERSION_APPEND_TIME_OF_DAY := true
