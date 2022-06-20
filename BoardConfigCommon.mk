@@ -73,7 +73,6 @@ WITH_DEXPREOPT_PIC := false
 
 # DTB/DTBO
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
-BOARD_KERNEL_SEPARATED_DTBO := true
 
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(COMMON_PATH)/configs/misc/config.fs
