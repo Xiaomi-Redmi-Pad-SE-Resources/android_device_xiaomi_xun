@@ -9,6 +9,7 @@ type vendor_DisplayFeatureControl_service, vndservice_manager_type;
 
 allow vendor_hal_displayfeature_xiaomi vendor_sysfs_graphics:file rw_file_perms;
 allow vendor_hal_displayfeature_xiaomi vendor_qdisplay_service:service_manager find;
+allow vendor_hal_displayfeature_xiaomi vendor_pps_socket:sock_file write;
 allow vendor_hal_displayfeature_xiaomi hal_graphics_composer:binder { call transfer };
 allow vendor_hal_displayfeature_xiaomi hal_graphics_composer:fd *;
 allow vendor_hal_displayfeature_xiaomi graphics_device:chr_file rw_file_perms;
@@ -28,6 +29,7 @@ allow vendor_hal_displayfeature_xiaomi_default vendor_sysfs_displayfeature:file 
 allow vendor_hal_displayfeature_xiaomi_default vendor_mistcdisplay_service:service_manager find;
 allow vendor_hal_displayfeature_xiaomi_default system_app:binder { call transfer };
 allow vendor_hal_displayfeature_xiaomi_default system_app:fd *;
+allow vendor_hal_displayfeature_xiaomi_default hal_graphics_composer_default:unix_stream_socket connectto;
 allow vendor_hal_displayfeature_xiaomi_default surfaceflinger:binder call;
 allow vendor_hal_displayfeature_xiaomi_client vendor_hal_displayfeature_xiaomi_server:binder { call transfer };
 allow vendor_hal_displayfeature_xiaomi_client vendor_hal_displayfeature_xiaomi_server:fd *;
@@ -40,6 +42,7 @@ init_daemon_domain(vendor_hal_displayfeature_xiaomi_default)
 r_dir_file(vendor_hal_displayfeature_xiaomi, vendor_sysfs_graphics)
 unix_socket_connect(vendor_hal_displayfeature_xiaomi_default, property, vendor_sensors)
 get_prop(vendor_hal_displayfeature_xiaomi_default, vendor_mpctl_prop)
+set_prop(vendor_hal_displayfeature_xiaomi_default, vendor_display_prop)
 set_prop(vendor_hal_displayfeature_xiaomi_default, vendor_displayfeature_prop)
 vndbinder_use(vendor_hal_displayfeature_xiaomi)
 hal_server_domain(vendor_hal_displayfeature_xiaomi_default, vendor_hal_displayfeature_xiaomi)
