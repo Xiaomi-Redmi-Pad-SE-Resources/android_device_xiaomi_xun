@@ -8,7 +8,12 @@
 $(call inherit-product, device/xiaomi/sm6225-common/common.mk)
 
 DEVICE_PATH := device/xiaomi/xun
+KERNEL_PATH := $(DEVICE_PATH)-kernel
 TARGET_IS_TABLET := true
+
+# DTB
+PRODUCT_COPY_FILES += \
+    $(KERNEL_PATH)/dtb:dtb.img
 
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 33
