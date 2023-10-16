@@ -8,6 +8,7 @@
 $(call inherit-product, device/xiaomi/sm6225-common/common.mk)
 
 DEVICE_PATH := device/xiaomi/xun
+TARGET_IS_TABLET := true
 
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 33
