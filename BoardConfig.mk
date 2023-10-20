@@ -7,6 +7,9 @@
 # Include the common OEM chipset BoardConfig.
 include device/xiaomi/sm6225-common/BoardConfigCommon.mk
 
+# Display
+TARGET_SCREEN_DENSITY := 280
+
 # DTBO
 BOARD_PREBUILT_DTBOIMAGE := $(KERNEL_PATH)/dtbo.img
 

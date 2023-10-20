@@ -11,6 +11,14 @@ DEVICE_PATH := device/xiaomi/xun
 KERNEL_PATH := $(DEVICE_PATH)-kernel
 TARGET_IS_TABLET := true
 
+# AAPT
+PRODUCT_AAPT_CONFIG := normal
+PRODUCT_AAPT_PREF_CONFIG := mdpi
+
+# Boot animation
+TARGET_SCREEN_HEIGHT := 1200
+TARGET_SCREEN_WIDTH := 1920
+
 # DTB
 PRODUCT_COPY_FILES += \
     $(KERNEL_PATH)/dtb:dtb.img
