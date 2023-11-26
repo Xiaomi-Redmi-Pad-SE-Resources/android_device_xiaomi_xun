@@ -31,7 +31,8 @@ PRODUCT_SHIPPING_API_LEVEL := 33
 
 # Overlays
 PRODUCT_PACKAGES += \
-    FrameworksResXun
+    FrameworksResXun \
+    SettingsResXun
 
 # Perf
 PRODUCT_COPY_FILES += \
