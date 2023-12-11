@@ -4,6 +4,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Inherit from the common OEM chipset makefile.
+$(call inherit-product, device/xiaomi/sm6225-common/common.mk)
+
 DEVICE_PATH := device/xiaomi/xun
 
 # Shipping API level
