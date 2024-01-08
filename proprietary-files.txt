@@ -457,6 +457,12 @@ vendor/etc/sensors/config/sx937x_reg_0.json
 vendor/etc/sensors/hals.conf
 vendor/etc/sensors/sns_reg_config
 
+# SKU properties
+odm/etc/xuncs_build.prop
+odm/etc/xunes_build.prop
+odm/etc/xungs_build.prop
+odm/etc/xunis_build.prop
+
 # Soundtrigger
 vendor/lib64/hw/sound_trigger.primary.bengal.so
 
