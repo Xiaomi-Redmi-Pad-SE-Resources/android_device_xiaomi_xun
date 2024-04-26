@@ -633,23 +633,6 @@ vendor/lib64/libxtadapter.so
 
 # Graphics - from topaz
 product/app/com.xiaomi.ugd/com.xiaomi.ugd.apk|65e7aa518afab30a40cf2256b4ee001dfbc28536
-vendor/lib/egl/eglSubDriverAndroid.so|01df99c47f0c1c10906c5d027bfbb47783a289cb
-vendor/lib/egl/libEGL_adreno.so;SYMLINK=vendor/lib/libEGL_adreno.so|26b43987d78516aa4b9e948960a7d9106c48e256
-vendor/lib/egl/libGLESv1_CM_adreno.so|eb02bf0adfe2c71a3f58c486e243b64ce7044f0c
-vendor/lib/egl/libGLESv2_adreno.so;SYMLINK=vendor/lib/libGLESv2_adreno.so|6eb27de7be7e795c9ff7ade575dc4700f99abe1f
-vendor/lib/egl/libVkLayer_ADRENO_qprofiler.so|af3c8361343816e4a8a1da285c6b405f4dadb5b2
-vendor/lib/egl/libq3dtools_adreno.so;SYMLINK=vendor/lib/libq3dtools_adreno.so|1dbbdf989236564dd6e7b9542ab2ffbd744b6e4c
-vendor/lib/egl/libq3dtools_esx.so|d63c5fee1ae78a9d8bbde7356658703314be8945
-vendor/lib/libCB.so|384f1cb77915b0f045d5c94ba7ef96b9c1529859
-vendor/lib/libOpenCL.so|801f25596929a2f1ba990759412fc937d7115ed1
-vendor/lib/libadreno_app_profiles.so|6f53c9afc0cf2ed3279e6c63f0d479e7770c176f
-vendor/lib/libadreno_utils.so|4fe4354055afb17f66f76e5c8c65b1303c0d641d
-vendor/lib/libgsl.so|2461fef90b59f0e38816dc6c0afd0dbc1e1dba40
-vendor/lib/libkcl.so|1c57f6ca72d142309eba188da45442a548cd54cc
-vendor/lib/libkernelmanager.so|defc63f87a597dc81ae7fc49a3c1e510e234e327
-vendor/lib/libllvm-glnext.so|fab7f59d7f7e36d1a0d513956886dcc2ddd2cd7e
-vendor/lib/libllvm-qcom.so|2f6857e33e80a275f3cd6f342347ef1571d74592
-vendor/lib/libllvm-qgl.so|439b26a7482b191fc31caea098a628cb2f2540d5
 vendor/lib64/egl/eglSubDriverAndroid.so|167c573149e046b23280cba9f778861f5f6a5a0c
 vendor/lib64/egl/libEGL_adreno.so;SYMLINK=vendor/lib64/libEGL_adreno.so|579730142b5d41bd890530861cb8efdeef4b83e9
 vendor/lib64/egl/libGLESv1_CM_adreno.so|29a64765d2b5d35261ec98ed68031d5699954307
@@ -700,7 +683,6 @@ vendor/firmware/a730_zap.mbn
 vendor/firmware/a730_zap.mdt
 vendor/firmware/gmu_gen70000.bin
 vendor/gpu/kbc/sequence_manifest.bin
-vendor/gpu/kbc/unified_kbcs_32.bin
 vendor/gpu/kbc/unified_kbcs_64.bin
 vendor/gpu/kbc/unified_ksqs.bin
 
@@ -791,7 +773,6 @@ vendor/lib64/libqcodec2_v4l2codec.so|6fe7b9b36d89dad7079bbd1f40e2bff0f569d7a0
 vendor/lib64/qti.video.utils.videobufferlayout.so|8e2e540b33aa39e58529f4eaae9f5ac39b67bde7
 
 # Memory
-vendor/lib/libvmmem.so
 vendor/lib64/libvmmem.so
 
 # Neural
@@ -1209,7 +1190,6 @@ vendor/firmware/vpu20_4v.mbn
 vendor/firmware/vpu20_4v_unsigned.mbn
 
 # Vulkan
-vendor/lib/hw/vulkan.adreno.so
 vendor/lib64/hw/vulkan.adreno.so
 
 # WiFi
