@@ -248,28 +248,12 @@ $(call soong_config_set,lineage_health,charging_control_charging_disabled,1)
 $(call soong_config_set,lineage_health,charging_control_supports_bypass,false)
 
 # Media
-PRODUCT_PACKAGES += \
-    libavservices_minijail \
-    libplatformconfig
-
-# Media stagefright
-PRODUCT_PACKAGES += \
-    libstagefrighthw \
-    libstagefright_omx.vendor \
-    libstagefright_softomx.vendor \
-    libstagefright_softomx_plugin.vendor
-
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/media/,$(TARGET_COPY_OUT_VENDOR)/etc)
 
 # Memtrack
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.memtrack-service
-
-# OMX
-PRODUCT_PACKAGES += \
-    libmm-omxcore \
-    libOmxCore
 
 # Overlays
 PRODUCT_ENFORCE_RRO_TARGETS := *
