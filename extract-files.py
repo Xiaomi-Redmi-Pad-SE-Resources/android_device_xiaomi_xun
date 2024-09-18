@@ -47,7 +47,6 @@ lib_fixups: lib_fixups_user_type = {
         'vendor.qti.hardware.wifidisplaysession@1.0',
     ): lib_fixup_vendor_suffix,
     (
-        'libwfdaac_vendor',
         'libwpa_client',
     ): lib_fixup_remove,
 }

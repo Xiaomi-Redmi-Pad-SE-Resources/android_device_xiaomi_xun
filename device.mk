@@ -373,8 +373,7 @@ PRODUCT_PACKAGES += \
 
 # WiFi Display
 PRODUCT_PACKAGES += \
-    libnl \
-    libwfdaac_vendor
+    libnl
 
 PRODUCT_BOOT_JARS += \
     WfdCommon
