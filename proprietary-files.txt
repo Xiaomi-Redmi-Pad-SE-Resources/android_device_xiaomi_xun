@@ -166,20 +166,6 @@ vendor/lib/libcamxstatscore.so
 vendor/lib/libcamxswispiqmodule.so
 vendor/lib/libcamxswprocessalgo.so
 vendor/lib/libcamxtintlessalgo.so
-vendor/lib64/camera/com.qti.sensor.m84_aac_gc05a2_ii.so
-vendor/lib64/camera/com.qti.sensor.m84_aac_gc08a3_i.so
-vendor/lib64/camera/com.qti.sensor.m84_aac_hi556_i.so
-vendor/lib64/camera/com.qti.sensormodule.m84_aac_gc05a2_ii.bin
-vendor/lib64/camera/com.qti.sensormodule.m84_aac_gc08a3_i.bin
-vendor/lib64/camera/com.qti.sensormodule.m84_aac_hi556_i.bin
-vendor/lib64/camera/com.qti.sensormodule.sunny_imx519.bin
-vendor/lib64/camera/com.qti.tuned.default.bin
-vendor/lib64/camera/com.qti.tuned.m84_aac_gc05a2_ii.bin
-vendor/lib64/camera/com.qti.tuned.m84_aac_gc05a2_ii_global.bin
-vendor/lib64/camera/com.qti.tuned.m84_aac_gc08a3_i.bin
-vendor/lib64/camera/com.qti.tuned.m84_aac_gc08a3_i_global.bin
-vendor/lib64/camera/com.qti.tuned.m84_aac_hi556_i.bin
-vendor/lib64/camera/com.qti.tuned.m84_aac_hi556_i_global.bin
 vendor/lib64/camera/components/com.qti.camx.chiiqutils.so
 vendor/lib64/camera/components/com.qti.eisv2.so
 vendor/lib64/camera/components/com.qti.eisv3.so
@@ -226,10 +212,26 @@ vendor/lib64/camera/components/com.qtistatic.stats.awb.so
 vendor/lib64/camera/components/com.qtistatic.stats.pdlib.so
 vendor/lib64/camera/components/com.xiaomi.node.gpu3rd.so
 vendor/lib64/camera/components/com.xiaomi.node.mimovie3rd.so
+vendor/lib64/camera/com.qti.sensor.m84_aac_gc05a2_ii.so
+vendor/lib64/camera/com.qti.sensor.m84_aac_gc08a3_i.so
+vendor/lib64/camera/com.qti.sensor.m84_aac_hi556_i.so
+vendor/lib64/camera/com.qti.sensormodule.m84_aac_gc05a2_ii.bin
+vendor/lib64/camera/com.qti.sensormodule.m84_aac_gc08a3_i.bin
+vendor/lib64/camera/com.qti.sensormodule.m84_aac_hi556_i.bin
+vendor/lib64/camera/com.qti.sensormodule.sunny_imx519.bin
+vendor/lib64/camera/com.qti.tuned.default.bin
+vendor/lib64/camera/com.qti.tuned.m84_aac_gc05a2_ii.bin
+vendor/lib64/camera/com.qti.tuned.m84_aac_gc05a2_ii_global.bin
+vendor/lib64/camera/com.qti.tuned.m84_aac_gc08a3_i.bin
+vendor/lib64/camera/com.qti.tuned.m84_aac_gc08a3_i_global.bin
+vendor/lib64/camera/com.qti.tuned.m84_aac_hi556_i.bin
+vendor/lib64/camera/com.qti.tuned.m84_aac_hi556_i_global.bin
 vendor/lib64/camera/fdconfigpreview.bin
 vendor/lib64/camera/fdconfigpreviewlite.bin
 vendor/lib64/camera/fdconfigvideo.bin
 vendor/lib64/camera/fdconfigvideolite.bin
+vendor/lib64/hw/camera.qcom.so
+vendor/lib64/hw/com.qti.chi.override.so
 vendor/lib64/com.qti.chiusecaseselector.so
 vendor/lib64/com.qti.feature2.anchorsync.so
 vendor/lib64/com.qti.feature2.demux.so
@@ -253,8 +255,6 @@ vendor/lib64/com.xiaomi.plugin.photosolid.so
 vendor/lib64/com.xiaomi.plugin.skinbeautifier.so
 vendor/lib64/com.xiaomi.plugin.superlowlight.so
 vendor/lib64/com.xiaomi.plugin.swflip.so
-vendor/lib64/hw/camera.qcom.so
-vendor/lib64/hw/com.qti.chi.override.so
 vendor/lib64/libPlatformValidatorShared.so
 vendor/lib64/libSNPE.so
 vendor/lib64/libSnpeHtpPrepare.so
@@ -322,6 +322,18 @@ vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
 
 # Camera configs
 odm/etc/camera/camerabooster.json
+vendor/etc/camera/xiaomi/dualbokehsnapshot.json
+vendor/etc/camera/xiaomi/frontbokehsnapshot.json
+vendor/etc/camera/xiaomi/frontsinglesnapshot.json
+vendor/etc/camera/xiaomi/frontsupernightsnapshot.json
+vendor/etc/camera/xiaomi/manualsnapshot.json
+vendor/etc/camera/xiaomi/normalpreview.json
+vendor/etc/camera/xiaomi/normalsnapshot.json
+vendor/etc/camera/xiaomi/satsnapshot.json
+vendor/etc/camera/xiaomi/superhdsnapshot.json
+vendor/etc/camera/xiaomi/superlowlightsnapshot.json
+vendor/etc/camera/xiaomi/thirdpartysnapshot.json
+vendor/etc/camera/xiaomi/uwsuperlowlightshot.json
 vendor/etc/camera/aivsModels2
 vendor/etc/camera/aivsParams
 vendor/etc/camera/aivsParams2
@@ -350,18 +362,6 @@ vendor/etc/camera/morpho_lowlight_2.0_aac_hi556_i_cn_oneframe.xml
 vendor/etc/camera/morpho_lowlight_2.0_aac_hi556_i_global_1X.xml
 vendor/etc/camera/morpho_lowlight_2.0_aac_hi556_i_global_oneframe.xml
 vendor/etc/camera/sceneDetection.xml
-vendor/etc/camera/xiaomi/dualbokehsnapshot.json
-vendor/etc/camera/xiaomi/frontbokehsnapshot.json
-vendor/etc/camera/xiaomi/frontsinglesnapshot.json
-vendor/etc/camera/xiaomi/frontsupernightsnapshot.json
-vendor/etc/camera/xiaomi/manualsnapshot.json
-vendor/etc/camera/xiaomi/normalpreview.json
-vendor/etc/camera/xiaomi/normalsnapshot.json
-vendor/etc/camera/xiaomi/satsnapshot.json
-vendor/etc/camera/xiaomi/superhdsnapshot.json
-vendor/etc/camera/xiaomi/superlowlightsnapshot.json
-vendor/etc/camera/xiaomi/thirdpartysnapshot.json
-vendor/etc/camera/xiaomi/uwsuperlowlightshot.json
 vendor/etc/camera/xiaomiSceneDetection.xml
 
 # Display configs
@@ -426,9 +426,9 @@ vendor/firmware/vpu20_4v.mbn
 vendor/firmware/vpu20_4v_unsigned.mbn
 
 # Media configs
+vendor/etc/media_khaje_iot/video_system_specs.json
 vendor/etc/media_codecs_khaje_iot.xml
 vendor/etc/media_codecs_performance_khaje_iot.xml
-vendor/etc/media_khaje_iot/video_system_specs.json
 vendor/etc/media_profiles_khaje_iot.xml
 
 # Sensors
