@@ -1,2 +1,5 @@
+# Display
+ro.vendor.display.type=lcd
+
 # Wlan
 ro.hardware.wlan.chip=wcn3950
