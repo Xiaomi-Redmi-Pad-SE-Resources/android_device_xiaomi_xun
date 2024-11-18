@@ -1,0 +1,8 @@
+<manifest version="5.0" type="device" target-level="7">
+    <hal format="hidl">
+        <name>vendor.qti.hardware.trustedui</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.1::ITrustedInput/default</fqname>
+        <fqname>@1.2::ITrustedUI/default</fqname>
+    </hal>
+</manifest>

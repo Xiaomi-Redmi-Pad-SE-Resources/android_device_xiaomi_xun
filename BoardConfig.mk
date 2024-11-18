@@ -28,6 +28,9 @@ PRODUCT_COPY_FILES += \
 # Recovery
 TARGET_RECOVERY_DEFAULT_ROTATION := ROTATION_LEFT
 
+# VINTF
+DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/vintf/manifest.xml
+
 # Workaround to make lineage's soong generator work
 TARGET_KERNEL_SOURCE := $(KERNEL_PATH)/kernel-headers
 
