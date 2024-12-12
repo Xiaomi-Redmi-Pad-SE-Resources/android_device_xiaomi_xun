@@ -22,10 +22,6 @@ PRODUCT_COPY_FILES += \
 # Kernel modules
 DLKM_MODULES_PATH := $(KERNEL_PATH)/modules/vendor
 RAMDISK_MODULES_PATH := $(KERNEL_PATH)/modules/ramdisk
-SYSTEM_DLKM_MODULES_PATH := $(KERNEL_PATH)/modules/system
-
-PRODUCT_COPY_FILES += \
-	$(call find-copy-subdir-files,*,$(SYSTEM_DLKM_MODULES_PATH)/,$(TARGET_COPY_OUT_SYSTEM_DLKM)/lib/modules/5.15.123/)
 
 BOARD_VENDOR_KERNEL_MODULES := $(wildcard $(DLKM_MODULES_PATH)/*.ko)
 BOARD_VENDOR_KERNEL_MODULES_LOAD := $(patsubst %,$(DLKM_MODULES_PATH)/%,$(shell cat $(DLKM_MODULES_PATH)/modules.load))
