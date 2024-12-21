@@ -223,9 +223,6 @@ vendor.gralloc.secure_preview_buffer_format=420_sp
 # Keystore
 ro.hardware.keystore_desede=true
 
-# Log
-ro.control_privapp_permissions=enforce
-
 # Media
 debug.c2.use_dmabufheaps=1
 debug.stagefright.c2inputsurface=-1
