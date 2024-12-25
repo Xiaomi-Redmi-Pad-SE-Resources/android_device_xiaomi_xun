@@ -69,10 +69,6 @@ vendor/etc/resourcemanager_scubaqrd.xml
 vendor/etc/usecaseKvManager.xml
 vendor/etc/usecaseKvManager_arrax.xml
 
-# Battery
-vendor/bin/battery_stats
-vendor/etc/init/vendor.qti.battery_stats.rc
-
 # Camera
 system/lib/libpiex.so:vendor/lib/libpiex.so
 system/lib64/libpiex.so:vendor/lib64/libpiex.so
