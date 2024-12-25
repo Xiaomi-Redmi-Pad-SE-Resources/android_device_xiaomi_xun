@@ -1,4 +1,4 @@
-# Unpinned blobs from xun V816.0.4.0.UMUMIXM
+# Unpinned blobs from xun V816.0.6.0.UMUMIXM
 
 # ACDB
 vendor/etc/acdbdata/bengal_idp/IDP_acdb_cal.acdb
