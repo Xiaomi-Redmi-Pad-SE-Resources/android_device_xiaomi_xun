@@ -417,16 +417,6 @@ vendor/etc/sensors/config/sx937x_reg_0.json
 vendor/etc/sensors/hals.conf
 vendor/etc/sensors/sns_reg_config
 
-# Thermal
-vendor/bin/thermal-engine-v2
-vendor/etc/init/init_thermal-engine-v2.rc
--vendor/lib64/liblmthermallistner.so
--vendor/lib64/libthermalclient.so
-
-# Thermal (Xiaomi)
-vendor/bin/mi_thermald
-vendor/etc/init/init.mi_thermald.rc
-
 # Thermal configs
 vendor/etc/thermal-camera.conf
 vendor/etc/thermal-chg-only.conf
