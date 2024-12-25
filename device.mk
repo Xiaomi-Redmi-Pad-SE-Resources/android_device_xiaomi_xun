@@ -241,6 +241,7 @@ PRODUCT_ENFORCE_RRO_TARGETS := *
 
 PRODUCT_PACKAGES += \
     FrameworksResXun \
+    NcmTetheringOverlay \
     SettingsProviderResXun \
     SettingsResXun \
     SystemUIResXun \
