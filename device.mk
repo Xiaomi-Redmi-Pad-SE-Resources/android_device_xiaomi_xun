@@ -33,6 +33,11 @@ PRODUCT_SHIPPING_API_LEVEL := 33
 PRODUCT_PACKAGES += \
     FrameworksResXun
 
+# Perf
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/configs/perf/perfboostsconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfboostsconfig.xml \
+    $(DEVICE_PATH)/configs/perf/perfconfigstore.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfconfigstore.xml
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
