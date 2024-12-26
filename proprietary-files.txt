@@ -107,6 +107,9 @@ vendor/etc/resourcemanager_scubaqrd.xml
 vendor/etc/usecaseKvManager.xml
 vendor/etc/usecaseKvManager_arrax.xml
 
+# Audio dolby
+vendor/etc/dolby/dax-default.xml
+
 # Camera
 vendor/lib/libbitmlengine.so
 vendor/lib/libcamera_nn_stub.so
