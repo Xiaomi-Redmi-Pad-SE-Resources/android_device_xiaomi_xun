@@ -41,6 +41,44 @@ vendor/lib/rfsa/adsp/misound_karaokemix_res.bin
 vendor/lib/rfsa/adsp/misound_res_headphone.bin
 vendor/lib/rfsa/adsp/misound_res_spk.bin
 
+# Audio
+system_ext/etc/permissions/audiosphere.xml
+system_ext/framework/audiosphere.jar
+vendor/lib/hw/audio.primary.bengal.so;DISABLE_CHECKELF
+vendor/lib/libadm.so
+vendor/lib/libar-acdb.so
+vendor/lib/libar-gpr.so
+vendor/lib/libar-gsl.so
+vendor/lib/libar-pal.so;DISABLE_CHECKELF
+vendor/lib/libats.so
+vendor/lib/libaudio_log_utils.so
+vendor/lib/libkaraokepal.so
+vendor/lib/liblx-ar_util.so
+vendor/lib/liblx-osal.so
+vendor/lib/libmcs.so
+vendor/lib/libqtigefar.so
+vendor/lib/vendor.qti.hardware.pal@1.0-impl.so
+vendor/lib64/hw/audio.primary.bengal.so;DISABLE_CHECKELF
+vendor/lib64/libadm.so
+vendor/lib64/libar-acdb.so
+vendor/lib64/libar-gpr.so
+vendor/lib64/libar-gsl.so
+vendor/lib64/libar-pal.so;DISABLE_CHECKELF
+vendor/lib64/libats.so
+vendor/lib64/libaudio_log_utils.so
+vendor/lib64/libkaraokepal.so
+vendor/lib64/liblx-ar_util.so
+vendor/lib64/liblx-osal.so
+vendor/lib64/libmcs.so
+vendor/lib64/libqtigefar.so
+vendor/lib64/vendor.qti.hardware.pal@1.0-impl.so
+
+# Audio AGM
+vendor/lib/libagm.so
+vendor/lib/vendor.qti.hardware.AGMIPC@1.0-impl.so
+vendor/lib64/libagm.so
+vendor/lib64/vendor.qti.hardware.AGMIPC@1.0-impl.so
+
 # Audio configs
 odm/etc/audio_policy_engine_configuration_mi.xml:odm/etc/audio_policy_engine_configuration.xml
 odm/etc/audio_policy_engine_default_stream_volumes.xml
@@ -440,6 +478,10 @@ vendor/etc/sensors/config/sns_wrist_pedo.json
 vendor/etc/sensors/config/sx937x_reg_0.json
 vendor/etc/sensors/hals.conf
 vendor/etc/sensors/sns_reg_config
+
+# Soundtrigger
+vendor/lib/hw/sound_trigger.primary.bengal.so
+vendor/lib64/hw/sound_trigger.primary.bengal.so
 
 # Thermal configs
 vendor/etc/thermal-camera.conf
