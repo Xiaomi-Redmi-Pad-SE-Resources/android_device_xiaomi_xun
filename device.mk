@@ -23,6 +23,10 @@ TARGET_SCREEN_WIDTH := 1920
 PRODUCT_COPY_FILES += \
     $(KERNEL_PATH)/dtb:dtb.img
 
+# Init scripts
+PRODUCT_PACKAGES += \
+    init.device.rc
+
 # Set product characteristic to tablet, needed for some ui elements
 PRODUCT_CHARACTERISTICS := tablet
 
