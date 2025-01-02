@@ -1,5 +1,8 @@
 # Unpinned blobs from xun V816.0.6.0.UMUMIXM
 
+# Audio configurations
+vendor/etc/dolby/dax-default.xml
+
 # ACDB
 vendor/etc/acdbdata/bengal_idp/IDP_acdb_cal.acdb
 vendor/etc/acdbdata/bengal_idp/IDP_workspaceFileXml.qwsp
