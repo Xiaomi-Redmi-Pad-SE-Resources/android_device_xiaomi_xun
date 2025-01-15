@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_xun.mk
+    $(LOCAL_DIR)/aosp_xun.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_xun-user \
-    lineage_xun-userdebug \
-    lineage_xun-eng
+    aosp_xun-user \
+    aosp_xun-userdebug \
+    aosp_xun-eng
