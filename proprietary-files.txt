@@ -1,4 +1,4 @@
-# Unpinned blobs from xun V816.0.7.0.UMUMIXM
+# Unpinned blobs from xun OS2.0.1.0.VMUCNXM
 
 # Audio configurations
 vendor/etc/dolby/dax-default.xml
