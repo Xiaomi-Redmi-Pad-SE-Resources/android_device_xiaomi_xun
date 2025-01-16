@@ -23,8 +23,8 @@ PRODUCT_MODEL := 23073RPBFG
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="xun-user 14 UKQ1.231003.002 V816.0.7.0.UMUMIXM release-keys" \
-    BuildFingerprint=Redmi/xun/xun:14/UKQ1.231003.002/V816.0.7.0.UMUMIXM:user/release-keys \
+    BuildDesc="xun-user 15 AQ3A.240829.003 OS2.0.1.0.VMUCNXM release-keys" \
+    BuildFingerprint=Redmi/xun/xun:15/AQ3A.240829.003/OS2.0.1.0.VMUCNXM:user/release-keys \
     DeviceName=xun \
     DeviceProduct=23073RPBFG \
     SystemDevice=23073RPBFG \
