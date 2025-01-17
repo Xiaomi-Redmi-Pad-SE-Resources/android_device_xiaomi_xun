@@ -289,6 +289,11 @@ vendor/etc/camera/morpho_lowlight_2.0_aac_hi556_i_global_oneframe.xml
 vendor/etc/camera/sceneDetection.xml
 vendor/etc/camera/xiaomiSceneDetection.xml
 
+# Charger
+vendor/bin/hvdcp_opti
+vendor/bin/init.qti.chg_policy.sh
+vendor/etc/charger_fstab.qti
+
 # Display configs
 vendor/etc/mdss_dsi_panel_m84_35_03_0b_fhdp_video_mi.xml
 vendor/etc/mdss_dsi_panel_m84_36_02_0a_fhdp_video_mi.xml
