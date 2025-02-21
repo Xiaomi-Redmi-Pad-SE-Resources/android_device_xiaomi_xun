@@ -95,8 +95,6 @@ function blob_fixup() {
             [ "$2" = "" ] && return 0
             "${PATCHELF}" --replace-needed "vendor.xiaomi.hardware.displayfeature@1.0.so" "libvendor.xiaomi.hardware.displayfeature@1.0.so" "${2}"
             ;;
-        vendor/lib64/libcodec2_soft_ac4dec.so     |\
-        vendor/lib64/libcodec2_soft_ddpdec.so     |\
         vendor/lib64/libdlbdsservice.so           |\
         vendor/lib64/libdlbpreg.so                |\
         vendor/lib64/libqc2audio_hwaudiocodec.so  |\
