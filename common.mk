@@ -315,7 +315,9 @@ PRODUCT_COPY_FILES += \
 endif
 
 # OMX
-TARGET_SUPPORTS_OMX_SERVICE := false
+PRODUCT_PACKAGES += \
+    libmm-omxcore \
+    libOmxCore
 
 # Overlays
 PRODUCT_ENFORCE_RRO_TARGETS := *
