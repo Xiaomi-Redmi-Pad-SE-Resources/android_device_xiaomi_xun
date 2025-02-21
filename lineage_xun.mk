@@ -18,14 +18,10 @@ PRODUCT_NAME := lineage_xun
 PRODUCT_DEVICE := xun
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Redmi
-PRODUCT_MODEL := 23073RPBFG
+PRODUCT_MODEL := Redmi Pad SE
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="xun-user 15 AQ3A.240829.003 OS2.0.1.0.VMUCNXM release-keys" \
-    BuildFingerprint=Redmi/xun/xun:15/AQ3A.240829.003/OS2.0.1.0.VMUCNXM:user/release-keys \
-    DeviceName=xun \
-    DeviceProduct=23073RPBFG \
-    SystemDevice=23073RPBFG \
-    SystemName=xun
+    BuildFingerprint=Redmi/xun/xun:15/AQ3A.240829.003/OS2.0.1.0.VMUCNXM:user/release-keys
