@@ -18,6 +18,7 @@ ro.vendor.qti.va_aosp.support=1
 
 # Graphics
 debug.sf.disable_backpressure=1
+ro.gfx.driver.0=com.xiaomi.ugd
 
 # Hint Manager
 debug.hwui.use_hint_manager=true
@@ -32,6 +33,7 @@ ro.iorapd.enable=false
 
 # Media
 media.aac_51_output_enabled=true
+media.stagefright.audio.deep=false
 media.stagefright.enable-aac=true
 media.stagefright.enable-fma2dp=true
 media.stagefright.enable-http=true
@@ -39,6 +41,7 @@ media.stagefright.enable-player=true
 media.stagefright.enable-qcp=true
 media.stagefright.enable-scan=true
 media.stagefright.thumbnail.prefer_hw_codecs=true
+ro.media.recorder-max-base-layer-fps=60
 
 # NFC
 ro.nfc.port=I2C

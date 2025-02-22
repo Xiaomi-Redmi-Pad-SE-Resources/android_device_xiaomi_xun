@@ -1,4 +1,4 @@
-# All blobs below are extracted from topaz OS2.0.8.0.VMGMIXM
+# All blobs below are extracted from sapphiren OS2.0.7.0.VNHMIXM
 
 # Bluetooth
 vendor/lib64/vendor.qti.hardware.bttpi-V2-ndk.so
@@ -69,33 +69,34 @@ vendor/lib64/libsynergy_loc_api.so
 vendor/lib64/vendor.qti.gnss-V4-ndk.so
 vendor/lib64/vendor.qti.gnss-service.so
 
-# IMS (system) - from eqs T1TBS33.32-8-9-7-2
-system_ext/app/ImsRcsService/ImsRcsService.apk|a95f2f5692bca44222f4f4e251543061cf6cb0fe
-system_ext/app/QtiTelephony/QtiTelephony.apk|fde1b6b3752e2d2edbb773cb6c0d26df67437fc4
-system_ext/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml|4e5483d8780df9f268bfaa2192b44a3465c5a78e
-system_ext/etc/permissions/vendor.qti.ims.rcsservice.xml|7ce9e6ccb5026b0aa87b0eb94a20448e2d4c481c
-system_ext/etc/sysconfig/qti_telephony_system_packages_config.xml|fce4e18c6568c289d4ff145c03a0c474ff55972a
+# IMS (system) - from eqs U1SQS34.52-21-1-13
+system_ext/app/ImsRcsService/ImsRcsService.apk|581693ea7743544e7ae05862c8b761aca0e37e69
+system_ext/app/QtiTelephony/QtiTelephony.apk|2e31babee395bcfc572aac2eb66ee38664b38d63
+system_ext/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml|94fa56b15cdb6134e410a66c2418ac3002027f76
+system_ext/etc/permissions/vendor.qti.ims.rcsservice.xml|c5c9dd633c3f5450f315017cd4645a11de3d7ed3
+system_ext/etc/sysconfig/qti_telephony_system_packages_config.xml|6c5084bef15012cf2a55426a35f696db3995ba16
 system_ext/etc/sysconfig/qti_whitelist_system_ext.xml|fc930929bee7d1f8ecc5b1c76193acdc2f923fe7
-system_ext/framework/vendor.qti.ims.connection-V1.0-java.jar|e01800d96b0db524836856410d3dd0b9352ec46c
-system_ext/framework/vendor.qti.ims.factory-V2.0-java.jar|ae7015efe55d17b1caf0da0c2247dac6cfaaa272
-system_ext/framework/vendor.qti.ims.factory-V2.1-java.jar|137f296405fd5f8c036c511f1d186e7178c5d57f
-system_ext/framework/vendor.qti.ims.factory-V2.2-java.jar|70dbc40c581103970402959342ea250b6a1fb84b
-system_ext/framework/vendor.qti.ims.rcssip-V1.0-java.jar|d711276f07ff0fd81fc6a63ad018b3eaf85ef4c9
-system_ext/framework/vendor.qti.ims.rcssip-V1.1-java.jar|f54828a81f02b1f9ff1379e34efb60d064aa27f6
-system_ext/framework/vendor.qti.ims.rcssip-V1.2-java.jar|e627b85a9268734c5e66adf67d18e6d3fb0bf1de
-system_ext/framework/vendor.qti.ims.rcsuce-V1.0-java.jar|517127c426fa94f28d97409bc7d07ca4cb92a9b0
-system_ext/framework/vendor.qti.ims.rcsuce-V1.1-java.jar|c7ea95f134ca6dc2b569b8c9b1c9b433bb6dae0c
-system_ext/framework/vendor.qti.ims.rcsuce-V1.2-java.jar|f221e0dfbb89daab9cca03104f9a92b2fd9b15bc
-system_ext/lib64/lib-imsvideocodec.so|b3c71f1bb514a86c2bbc08bdc245bf9affa56323
-system_ext/lib64/lib-imsvt.so|707afd60b7849df50ca46922181dc8cf72682df9
-system_ext/lib64/lib-imsvtextutils.so|1dfb5640cd23a92e7ca55a84118b2966653aebc7
-system_ext/lib64/lib-imsvtutils.so|6df6279955493da11860bb048db38f01ec05c2aa
-system_ext/lib64/libdiag_system.so|ced16a9ffd51f155a4b20a0c04fe7b595bfa8cc4
-system_ext/lib64/libimscamera_jni.so|f6b7647cfe080baeed006c932b495ff94b5685a7
-system_ext/lib64/libimsmedia_jni.so|5b34af19636863d22e5e7b4f20136564e6ee2222
-system_ext/lib64/vendor.qti.imsrtpservice@3.0.so|ace5e02b6cd79b43a07d84e2d18d6818821a3c48
-system_ext/lib64/vendor.qti.imsrtpservice@3.1.so|e64aa8a21a8db69d2e2ea14929bb20ced99c119d
-system_ext/priv-app/ims/ims.apk|9065ecc8af98f75e860e6294524fd801ba0ebcc3
+system_ext/framework/vendor.qti.ims.connection-V1.0-java.jar|1d81605e2f99b043be0a70a7b3d1fc68e60cc5f2
+system_ext/framework/vendor.qti.ims.factory-V2.0-java.jar|b870964be5fe952385718e23cf3e56a65bf1cad8
+system_ext/framework/vendor.qti.ims.factory-V2.1-java.jar|c36b5f62fd43d62bff6282320f3ed2ea0a18c27d
+system_ext/framework/vendor.qti.ims.factory-V2.2-java.jar|50c52c569b10da97639d4fc0004c0df2ee5a01ab
+system_ext/framework/vendor.qti.ims.rcssip-V1.0-java.jar|74f18e563abddaeabc7821d58d6df28e370eb737
+system_ext/framework/vendor.qti.ims.rcssip-V1.1-java.jar|470498817c809e32290f6adc7a0fc66a48c2b678
+system_ext/framework/vendor.qti.ims.rcssip-V1.2-java.jar|813ba6d5ba578ab148dfe3cbde79aa69aaf4c6d6
+system_ext/framework/vendor.qti.ims.rcsuce-V1.0-java.jar|4feb1dee0a2c32248dc6000d2d1ad605e1c9cc0d
+system_ext/framework/vendor.qti.ims.rcsuce-V1.1-java.jar|f734b46b12348d3fe38fd874809d7d918e01f863
+system_ext/framework/vendor.qti.ims.rcsuce-V1.2-java.jar|f68862295f5ae16f10ee8ab3650f42c8b150db4a
+system_ext/lib64/lib-imsvideocodec.so|05c1c68e1808cc075bbb75e124f26a2445764193
+system_ext/lib64/lib-imsvt.so|0517dff9db29cbf4a2a62706e1ce3b322cf1d681
+system_ext/lib64/lib-imsvtextutils.so|19b0a5b9119388e735729e9a86ee7ee0a1355077
+system_ext/lib64/lib-imsvtutils.so|43a6fda66f13f86156f05a7f2b1681d0e5df4c8c
+system_ext/lib64/libdiag_system.so|290d58dac7a3355699e8c0af713249fcebbdf601
+system_ext/lib64/libimscamera_jni.so|85f58c7cc4b84ca953f1d5e24500cc816a921b3d
+system_ext/lib64/libimsmedia_jni.so|a626f7dbd5bdb26b926a64d26c6a721469b8264f
+system_ext/lib64/vendor.qti.ImsRtpService-V1-ndk.so|bb32703c026364da33ca1b4f83c839e1e312ae9b
+system_ext/lib64/vendor.qti.imsrtpservice@3.0.so|919c4398097c8b818a415efccc57e989c7c24e10
+system_ext/lib64/vendor.qti.imsrtpservice@3.1.so|d1b6a6eabf17e43e98dcc4372fdabea4890f7cd8
+system_ext/priv-app/ims/ims.apk|ae8b50ef96e724a8fb5925140e0a9ceedb298c34
 
 # IMS ( vendor )
 vendor/bin/ims_rtp_daemon
