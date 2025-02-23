@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_xun.mk
+    $(LOCAL_DIR)/yaap_xun.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_xun-user \
-    lineage_xun-userdebug \
-    lineage_xun-eng
+    yaap_xun-user \
+    yaap_xun-userdebug \
+    yaap_xun-eng
