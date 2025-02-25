@@ -8,13 +8,13 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit_only.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_tablet_wifionly.mk)
+# Inherit some common Halcyon stuff.
+$(call inherit-product, vendor/halcyon/config/common.mk)
 
 # Inherit from device makefile.
 $(call inherit-product, device/xiaomi/xun/device.mk)
 
-PRODUCT_NAME := lineage_xun
+PRODUCT_NAME := halcyon_xun
 PRODUCT_DEVICE := xun
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Redmi
