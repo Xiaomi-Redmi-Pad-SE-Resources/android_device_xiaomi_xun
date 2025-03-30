@@ -21,7 +21,7 @@ TARGET_SCREEN_WIDTH := 1920
 
 # DTB
 PRODUCT_COPY_FILES += \
-    $(KERNEL_PATH)/dtb:dtb.img
+    $(KERNEL_PATH)/dtb.img:dtb.img
 
 # Init scripts
 PRODUCT_PACKAGES += \
