@@ -46,7 +46,7 @@ PRODUCT_COPY_FILES += \
 
 # Permissions
 PRODUCT_COPY_FILES += \
-    frameworks/native/data/etc/handheld_core_hardware.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/handheld_core_hardware.xml
+    frameworks/native/data/etc/tablet_core_hardware.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/tablet_core_hardware.xml
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
