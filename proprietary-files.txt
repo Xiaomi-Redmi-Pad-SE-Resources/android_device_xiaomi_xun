@@ -497,9 +497,11 @@ vendor/lib64/vendor.qti.hardware.ListenSoundModel@1.0.so
 # Media - from topaz
 vendor/bin/hw/vendor.qti.media.c2@1.0-service|9d89470c0bfda42b78b84187cd1cf5bf9f574e17
 vendor/bin/hw/vendor.qti.media.c2audio@1.0-service|5b9aa23433aa99bdce45e180261a6fc264fad8c6
+vendor/bin/init.qti.media.sh|ff5accbd018cf4676673fab45cf1499d89bc3f35
 vendor/etc/init/init.qti.media.rc|ef1332dce782443ffbd36b28c8349611535c6d5a
 vendor/etc/init/vendor.qti.media.c2@1.0-service.rc|542d2ae2a92ee21dbb63716ff49392e8e6e433f4
 vendor/etc/init/vendor.qti.media.c2audio@1.0-service.rc|51841b9c67dd26b7fe82e24109f1e0a663a3e04a
+vendor/etc/media_khaje_v0/video_system_specs.json|29b4addff96210b925cc0430e8dab026c6881792
 vendor/etc/vintf/manifest/c2_manifest_vendor.xml|0e532bf1c7d6a0ee2e7e03a9cc3283a5bffc7f8e
 vendor/etc/vintf/manifest/c2_manifest_vendor_audio.xml|7801d5fb9104883e33e874011caa25c28b7bec71
 vendor/lib/libEvrcSwCodec.so|1523d70f443e39ded0e57bf49a2b58ade792ee98
