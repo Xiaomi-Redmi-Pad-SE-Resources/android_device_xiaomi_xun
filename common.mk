@@ -283,7 +283,6 @@ PRODUCT_PACKAGES += \
 
 # Media
 PRODUCT_PACKAGES += \
-    android.hardware.media.omx@1.0-service \
     libavservices_minijail \
     libplatformconfig
 
