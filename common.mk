@@ -357,8 +357,13 @@ endif
 PRODUCT_PACKAGES += \
     android.hardware.power-service-qti
 
+ifneq ($(TARGET_IS_TABLET),true)
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/perf/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml
+else
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/perf/powerhint_tablet.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml
+endif
 
 # Public libraries
 PRODUCT_COPY_FILES += \
