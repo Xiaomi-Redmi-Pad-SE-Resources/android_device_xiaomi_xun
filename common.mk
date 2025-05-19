@@ -129,11 +129,6 @@ else
 PRODUCT_COPY_FILES += frameworks/native/data/etc/android.hardware.camera.autofocus.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.autofocus.xml
 endif
 
-# Charger
-PRODUCT_PACKAGES += \
-    charger_res_images \
-    libsuspend
-
 # DebugFS
 PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
 
