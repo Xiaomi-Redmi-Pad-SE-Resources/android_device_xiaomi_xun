@@ -1,4 +1,0 @@
-# Make charger_vendor permissive
-userdebug_or_eng(`
-  permissive charger_vendor;
-')
