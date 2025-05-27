@@ -385,12 +385,6 @@ vendor/firmware/vpu20_1v_unsigned.mbn
 vendor/firmware/vpu20_4v.mbn
 vendor/firmware/vpu20_4v_unsigned.mbn
 
-# Media configs
-vendor/etc/media_khaje_iot/video_system_specs.json
-vendor/etc/media_codecs_khaje_iot.xml
-vendor/etc/media_codecs_performance_khaje_iot.xml
-vendor/etc/media_profiles_khaje_iot.xml
-
 # Perf configs
 vendor/etc/lm/prekill/prekill_2GB.data
 vendor/etc/lm/prekill/prekill_4GB.data
