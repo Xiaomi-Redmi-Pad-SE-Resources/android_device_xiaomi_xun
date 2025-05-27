@@ -19,10 +19,6 @@ PRODUCT_AAPT_PREF_CONFIG := mdpi
 TARGET_SCREEN_HEIGHT := 1200
 TARGET_SCREEN_WIDTH := 1920
 
-# DTB
-PRODUCT_COPY_FILES += \
-    $(KERNEL_PATH)/dtb.img:dtb.img
-
 # Init scripts
 PRODUCT_PACKAGES += \
     init.device.rc

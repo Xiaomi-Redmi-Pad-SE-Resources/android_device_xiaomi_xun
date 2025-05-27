@@ -10,7 +10,8 @@ include device/xiaomi/sm6225-common/BoardConfigCommon.mk
 # Display
 TARGET_SCREEN_DENSITY := 280
 
-# DTBO
+# DTB / DTBO
+BOARD_PREBUILT_DTBIMAGE_DIR := $(KERNEL_PATH)/dtbs/
 BOARD_PREBUILT_DTBOIMAGE := $(KERNEL_PATH)/dtbo.img
 
 # Kernel
