@@ -1,4 +1,4 @@
-# All blobs below are extracted from sapphiren OS2.0.9.0.VNHMIXM
+# All blobs below are extracted from sapphiren OS2.0.10.0.VNHMIXM
 
 # Bluetooth
 vendor/lib64/vendor.qti.hardware.bttpi-V2-ndk.so
