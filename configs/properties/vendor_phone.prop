@@ -42,3 +42,6 @@ ro.vendor.radio.fastdormancy=true
 ro.vendor.radio.features_common=3
 telephony.active_modems.max_count=2
 telephony.lteOnCdmaDevice=1
+
+# Surfaceflinger
+ro.surface_flinger.has_HDR_display=true
