@@ -150,8 +150,6 @@ bluetooth.profile.pan.panu.enabled?=true
 bluetooth.profile.pbap.server.enabled?=true
 bluetooth.profile.sap.server.enabled?=true
 persist.bluetooth.a2dp_offload.disabled=false
-persist.bluetooth.disableabsvol=true
-persist.vendor.bt.a2dp_offload_cap=sbc-aptx-aptxtws-aptxhd-aac-ldac
 persist.vendor.bt.aac_frm_ctl.enabled=true
 persist.vendor.qcom.bluetooth.a2dp_offload_cap=sbc-aptx-aptxtws-aptxhd-aac-ldac
 persist.vendor.qcom.bluetooth.aac_vbr_ctl.enabled=false
@@ -298,7 +296,6 @@ ro.surface_flinger.use_color_management=true
 ro.surface_flinger.wcg_composition_dataspace=143261696
 
 # USB
-ro.boot.usb.dwc3_msm=4e00000.ssusb
 sys.usb.mtp.batchcancel=1
 vendor.usb.controller=4e00000.dwc3
 vendor.usb.diag.func.name=ffs
@@ -316,9 +313,6 @@ ro.hardware.wlan.dbs=0
 ro.hardware.wlan.mimo=0
 ro.hardware.wlan.vendor=qcom
 wifi.aware.interface=wifi-aware0
-
-# Wi-Fi Display
-vendor.wfdservice64=enable
 
 # Zygote
 zygote.critical_window.minute=10
