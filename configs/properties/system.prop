@@ -1,5 +1,5 @@
 # Brightness Curve
-persist.sys.brightness.low.gamma=true
+sys.brightness.disable_gamma_conversion=true
 
 # CNE
 persist.vendor.cne.feature=1
