@@ -2,5 +2,8 @@
 ro.vendor.display.type=lcd
 ro.surface_flinger.primary_display_orientation=ORIENTATION_180
 
+# Surfaceflinger
+ro.surface_flinger.has_HDR_display=false
+
 # Wlan
 ro.hardware.wlan.chip=wcn3950
