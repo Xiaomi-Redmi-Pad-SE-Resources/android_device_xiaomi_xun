@@ -1,0 +1,2 @@
+# Touchscreen
+genfscon proc /tp_gesture    u:object_r:sysfs_tp_touchfeature:s0
