@@ -10,6 +10,16 @@ ro.af.client_heap_size_kbyte=7168
 persist.bluetooth.disableabsvol=true
 persist.vendor.bt.a2dp_offload_cap=sbc-aptx-aptxtws-aptxhd-aac-ldac
 
+# LMKD
+ro.lmk.kill_heaviest_task=true
+ro.lmk.swap_util_max=90
+ro.lmk.thrashing_limit=30
+ro.lmk.thrashing_limit_decay=25
+ro.lmk.thrashing_limit_critical=30
+ro.lmk.psi_complete_stall_ms=120
+ro.lmk.psi_partial_stall_ms=50
+ro.lmk.filecache_min_kb=300000
+
 # Netflix
 ro.netflix.channel=004ee050-1a17-11e9-bb61-6f1da27fb55b
 ro.netflix.signup=1
