@@ -325,6 +325,9 @@ vendor/bin/init.qti.chg_policy.sh
 vendor/etc/charger_fstab.qti
 
 # Display configs
+product/etc/displayconfig/display_id_4630946278308427649.xml:vendor/etc/displayconfig/display_id_4630946278308427649.xml
+product/etc/displayconfig/display_id_4630946470691739265.xml:vendor/etc/displayconfig/display_id_4630946470691739265.xml
+product/etc/displayconfig/display_id_4630946894427414401.xml:vendor/etc/displayconfig/display_id_4630946894427414401.xml
 vendor/etc/mdss_dsi_panel_m84_35_03_0b_fhdp_video_mi.xml
 vendor/etc/mdss_dsi_panel_m84_36_02_0a_fhdp_video_mi.xml
 vendor/etc/mdss_dsi_panel_m84_42_03_0c_fhdp_video_mi.xml
