@@ -1,0 +1,3 @@
+# Wakeup sysfs nodes
+/sys/devices/platform/soc/soc:qcom,nopmi-chg/power_supply/usb/wakeup[0-9]*(/.*)?        u:object_r:sysfs_wakeup:s0
+/sys/devices/platform/soc/soc:qcom,nopmi-chg/power_supply/battery/wakeup[0-9]*(/.*)?    u:object_r:sysfs_wakeup:s0
