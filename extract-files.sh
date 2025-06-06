@@ -96,10 +96,10 @@ function blob_fixup() {
             "${PATCHELF}" --replace-needed "vendor.xiaomi.hardware.displayfeature@1.0.so" "libvendor.xiaomi.hardware.displayfeature@1.0.so" "${2}"
             ;;
         vendor/lib64/libdlbdsservice.so           |\
-        vendor/lib*/libdlbpreg.so                |\
-        vendor/lib*/libqc2audio_hwaudiocodec.so  |\
+        vendor/lib*/libdlbpreg.so                 |\
+        vendor/lib*/libqc2audio_hwaudiocodec.so   |\
         vendor/lib64/hw/displayfeature.default.so |\
-        vendor/lib*/soundfx/libdlbvol.so         |\
+        vendor/lib*/soundfx/libdlbvol.so          |\
         vendor/lib*/soundfx/libhwdap.so)
             [ "$2" = "" ] && return 0
             "${PATCHELF}" --replace-needed "libstagefright_foundation.so" "libstagefright_foundation-v33.so" "${2}"
