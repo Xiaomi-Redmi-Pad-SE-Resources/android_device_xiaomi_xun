@@ -45,7 +45,7 @@ PRODUCT_PACKAGES += \
 
 # Audio
 PRODUCT_PACKAGES += \
-    DolbyManager
+    XiaomiDolby
 
 PRODUCT_PACKAGES += \
     audioadsprpcd
