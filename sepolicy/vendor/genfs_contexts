@@ -3,6 +3,9 @@ genfscon sysfs /devices/platform/soc/4ac0000.qcom,qupv3_0_geni_se/4a84000.i2c/i2
 genfscon sysfs /devices/platform/soc/soc:rt-pd-manager/extcon                                                         u:object_r:sysfs_extcon:s0
 genfscon sysfs /devices/platform/soc/soc:spf_core_platform/soc:spf_core_platform:bolero-codec/wcd937x-codec/extcon    u:object_r:sysfs_extcon:s0
 
+# PMIC sysfs nodes
+genfscon sysfs /devices/platform/soc/soc:qcom,nopmi-chg/qcom-battery/odm_battery/batt_manufacturer    u:object_r:vendor_sysfs_battery_supply:s0
+
 # Touchscreen
 genfscon proc /tp_gesture    u:object_r:sysfs_tp_touchfeature:s0
 

@@ -1,3 +1,7 @@
+# PMIC sysfs nodes
+/sys/devices/platform/soc/soc:qcom,nopmi-chg/power_supply/battery(/.*)?    u:object_r:vendor_sysfs_battery_supply:s0
+/sys/devices/platform/soc/soc:qcom,nopmi-chg/power_supply/usb(/.*)?        u:object_r:vendor_sysfs_usb_supply:s0
+
 # Wakeup sysfs nodes
 /sys/devices/platform/soc/soc:qcom,nopmi-chg/power_supply/usb/wakeup[0-9]*(/.*)?        u:object_r:sysfs_wakeup:s0
 /sys/devices/platform/soc/soc:qcom,nopmi-chg/power_supply/battery/wakeup[0-9]*(/.*)?    u:object_r:sysfs_wakeup:s0
