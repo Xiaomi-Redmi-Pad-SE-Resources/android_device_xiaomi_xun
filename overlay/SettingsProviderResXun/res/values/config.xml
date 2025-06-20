@@ -10,4 +10,7 @@
 
     <!-- 120 seconds for default screen timeout -->
     <integer name="def_screen_off_timeout">120000</integer>
+
+    <!-- Default for Settings.Global.DEVICE_NAME $1=MODEL-->
+    <string name="def_device_name_simple">Redmi Pad SE</string>
 </resources>
