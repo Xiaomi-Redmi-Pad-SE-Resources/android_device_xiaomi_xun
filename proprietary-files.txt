@@ -51,16 +51,16 @@ vendor/lib64/vendor.qti.hardware.alarm@1.0.so
 vendor/lib64/hw/com.dsi.ant@1.0-impl.so
 
 # Audio
-vendor/lib64/hw/audio.primary.bengal.so;DISABLE_CHECKELF
+vendor/lib64/hw/audio.primary.bengal.so
 vendor/lib64/libAlacSwDec.so
 vendor/lib64/libApeSwDec.so
 vendor/lib64/libFlacSwDec.so
 vendor/lib64/libadm.so
-vendor/lib64/libagm.so;DISABLE_CHECKELF
-vendor/lib64/libar-pal.so;DISABLE_CHECKELF
+vendor/lib64/libagm.so
+vendor/lib64/libar-pal.so
 vendor/lib64/libaudio_log_utils.so
 vendor/lib64/libkaraokepal.so
-vendor/lib64/libmcs.so;DISABLE_CHECKELF
+vendor/lib64/libmcs.so
 vendor/lib64/libqtigefar.so
 vendor/lib64/vendor.qti.hardware.pal@1.0-impl.so
 
@@ -772,7 +772,7 @@ vendor/lib64/libqc2audio_base.so|00779587ada038abace9daad256a6a174f435067
 vendor/lib64/libqc2audio_basecodec.so|ea470367efc95c4f3678e341fead458494c147e5
 vendor/lib64/libqc2audio_core.so|ef04cb2507e9dd21127b64497d79da976cb1d4d6
 vendor/lib64/libqc2audio_hooks.so|a1bfa6547820ecb8023c87aea8b5dc3e58eab4e8
-vendor/lib64/libqc2audio_hwaudiocodec.so;DISABLE_CHECKELF|ed4f3a4ec7a0a9a5a2f460252c2493d03046ce12|479005186c56ec2bb299c87e01b58c8b676b4f10
+vendor/lib64/libqc2audio_hwaudiocodec.so|ed4f3a4ec7a0a9a5a2f460252c2493d03046ce12|479005186c56ec2bb299c87e01b58c8b676b4f10
 vendor/lib64/libqc2audio_platform.so|fcfcacfaf9fae2c18f7f1b5a563a5863a70dcfd5
 vendor/lib64/libqc2audio_swaudiocodec.so|48fa31f663a7558f575cb99aab4d41aa0aa8b649
 vendor/lib64/libqc2audio_utils.so|2d532831983585308dc5623ac7a78210d0232ce2
