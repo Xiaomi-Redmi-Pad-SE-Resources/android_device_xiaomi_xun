@@ -1,5 +1,5 @@
-# Unpinned blobs from sapphiren OS2.0.10.0.VNHMIXM
-# topaz: OS2.0.10.0.VMGMIXM
+# Unpinned blobs from sapphiren OS2.0.202.0.VNHEUXM
+# topaz: OS2.0.203.0.VMGEUXM
 
 # ADSP
 vendor/bin/adsprpcd
