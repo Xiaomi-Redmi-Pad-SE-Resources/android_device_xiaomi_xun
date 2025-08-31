@@ -133,9 +133,7 @@ PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := verify
 # Display
 PRODUCT_PACKAGES += \
     init.qti.display_boot.rc \
-    init.qti.display_boot.sh \
-    vendor.qti.hardware.display.composer-service.rc \
-    vendor.qti.hardware.display.composer-service.xml
+    init.qti.display_boot.sh
 
 PRODUCT_PACKAGES += \
     android.hardware.graphics.mapper@4.0-impl-qti-display \

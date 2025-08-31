@@ -454,7 +454,7 @@ vendor/lib64/vendor.qti.diaghal@1.0.so;MODULE_SUFFIX=_vendor
 
 # Display - from topaz
 vendor/bin/hw/vendor.display.color@1.0-service|f3e4123fa5b9d096c1131866eef46ee92da787b5
-vendor/bin/hw/vendor.qti.hardware.display.composer-service|1d64de2b163bf7eeb17b2a4e1f4cac4764e182cb|ad6d8294cef60904190fd486ca9fcdec0c0d505e
+vendor/bin/hw/vendor.qti.hardware.display.composer-service;REQUIRED=vendor.qti.hardware.display.composer-service.rc,vendor.qti.hardware.display.composer-service.xml|1d64de2b163bf7eeb17b2a4e1f4cac4764e182cb|ad6d8294cef60904190fd486ca9fcdec0c0d505e
 vendor/bin/ppd|e2621c0da901eb3f6b4625cd30b25d9291cb452d
 vendor/bin/qdcmss|319672e6224e42355e3bb1b479bb1284182ab1b9
 vendor/etc/display/advanced_sf_offsets.xml|de6449ddd7fd4e975ae29ce5aeeda1d6dff275ee
