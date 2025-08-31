@@ -4,6 +4,10 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+DEVICE_PATH := device/xiaomi/xun
+KERNEL_PATH := $(DEVICE_PATH)-kernel
+TARGET_IS_TABLET := true
+
 # Enable project quotas and casefolding for emulated storage without sdcardfs
 $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 
@@ -17,7 +21,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota/launch_with_ven
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
 # Inherit from the proprietary files makefile.
-$(call inherit-product, vendor/xiaomi/sm6225-common/sm6225-common-vendor.mk)
+$(call inherit-product, vendor/xiaomi/xun/xun-vendor.mk)
 
 # Add common definitions for Qualcomm
 $(call inherit-product, hardware/qcom-caf/common/common.mk)
@@ -103,6 +107,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.bluetooth.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.bluetooth.xml \
     frameworks/native/data/etc/android.hardware.bluetooth_le.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.bluetooth_le.xml
+
+# Boot animation
+TARGET_SCREEN_HEIGHT := 1200
+TARGET_SCREEN_WIDTH := 1920
 
 # Boot control
 PRODUCT_PACKAGES += \
@@ -231,6 +239,7 @@ PRODUCT_PACKAGES += \
     fstab.default.vendor_ramdisk \
     fstab.emmc \
     fstab.emmc.vendor_ramdisk \
+    init.device.rc \
     init.qcom.rc \
     init.qti.kernel.rc \
     init.recovery.qcom.rc \
@@ -260,6 +269,11 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/fstab.emmc:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/first_stage_ramdisk/fstab.emmc
 
 $(call soong_config_set,libinit,vendor_init_lib,//$(LOCAL_PATH):init_xiaomi_bengal)
+
+# Kernel
+LOCAL_KERNEL := $(KERNEL_PATH)/kernel
+PRODUCT_COPY_FILES += \
+	$(LOCAL_KERNEL):kernel
 
 # Keymint
 PRODUCT_PACKAGES += \
@@ -325,7 +339,10 @@ PRODUCT_ENFORCE_RRO_TARGETS := *
 
 PRODUCT_PACKAGES += \
     FrameworksResCommon \
+    FrameworksResXun \
     FrameworksResTarget \
+    SettingsProviderResXun \
+    SettingsResXun \
     SystemUIResCommon \
     WifiResCommon \
     WifiResTarget
@@ -400,6 +417,9 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.sensor.stepcounter.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.sensor.stepcounter.xml \
     frameworks/native/data/etc/android.hardware.sensor.stepdetector.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.sensor.stepdetector.xml
 
+# Set product characteristic to tablet, needed for some ui elements
+PRODUCT_CHARACTERISTICS := tablet
+
 # Shipping API
 BOARD_SHIPPING_API_LEVEL := 33
 PRODUCT_SHIPPING_API_LEVEL := 33
@@ -408,6 +428,10 @@ PRODUCT_SHIPPING_API_LEVEL := 33
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/xiaomi
+
+# Tablet permission
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/tablet_core_hardware.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/tablet_core_hardware.xml
 
 # Telephony
 ifneq ($(TARGET_IS_TABLET),true)

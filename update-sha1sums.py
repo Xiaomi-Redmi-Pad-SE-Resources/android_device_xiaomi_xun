@@ -20,7 +20,7 @@ import os
 import sys
 from hashlib import sha1
 
-device = 'sm6225-common'
+device = 'xun'
 vendor = 'xiaomi'
 
 def process_file(file_name, cleanup_mode=False):

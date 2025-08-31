@@ -6,7 +6,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter sapphire topaz xun,$(TARGET_DEVICE)),)
+ifeq ($(TARGET_DEVICE),xun)
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
 # A/B builds require us to create the mount points at compile time.
@@ -66,5 +66,11 @@ $(WFD_SERVICE_SYMLINKS): $(LOCAL_INSTALLED_MODULE)
 	$(hide) ln -sf /system_ext/lib64/libwfdnative.so $@/libwfdnative.so
 
 ALL_DEFAULT_INSTALLED_MODULES += $(EGL_LIB_SYMLINKS) $(EGL_LIB64_SYMLINKS) $(WFD_SERVICE_SYMLINKS)
+
+PREBUILT_KERNEL_MODULES_SYSTEM_DLKM := $(TARGET_OUT_SYSTEM_DLKM)/lib/modules
+$(PREBUILT_KERNEL_MODULES_SYSTEM_DLKM):
+	@mkdir -p $(TARGET_OUT_SYSTEM_DLKM)/lib/modules
+	@cp -r $(KERNEL_PATH)/modules/system/* $(PREBUILT_KERNEL_MODULES_SYSTEM_DLKM)
+ALL_DEFAULT_INSTALLED_MODULES += $(PREBUILT_KERNEL_MODULES_SYSTEM_DLKM)
 
 endif

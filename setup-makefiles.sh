@@ -1,11 +1,14 @@
 #!/bin/bash
 #
-# SPDX-FileCopyrightText: 2016 The CyanogenMod Project
-# SPDX-FileCopyrightText: 2017-2024 The LineageOS Project
+# SPDX-FileCopyrightText: 2018-2025 The LineageOS Project
+#
 # SPDX-License-Identifier: Apache-2.0
 #
 
 set -e
+
+DEVICE=xun
+VENDOR=xiaomi
 
 # Load extract_utils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"
@@ -24,7 +27,7 @@ source "${HELPER}"
 
 function vendor_imports() {
     cat <<EOF >>"$1"
-        "device/xiaomi/sm6225-common",
+        "device/xiaomi/xun",
         "hardware/qcom-caf/sm6225",
         "hardware/qcom-caf/wlan",
         "hardware/xiaomi",
@@ -69,40 +72,15 @@ function lib_to_package_fixup() {
         lib_to_package_fixup_vendor_variants "$@"
 }
 
-# Initialize the helper for common
-setup_vendor "${DEVICE_COMMON}" "${VENDOR_COMMON:-$VENDOR}" "${ANDROID_ROOT}" true
+# Initialize the helper
+setup_vendor "${DEVICE}" "${VENDOR}" "${ANDROID_ROOT}"
 
 # Warning headers and guards
-write_headers "sapphire topaz xun"
+write_headers
 
-# The standard common blobs
-write_makefiles "${MY_DIR}/proprietary-files.txt" true
+write_makefiles "${MY_DIR}/proprietary-files.txt"
 
-# Exclude blobs from tablet builds
-printf '\n%s\n' 'ifneq ($(TARGET_IS_TABLET),true)' >> "$PRODUCTMK"
-
-write_makefiles "${MY_DIR}/proprietary-files-phone.txt" true
-
-printf '%s\n' 'endif' >> "$PRODUCTMK"
+append_firmware_calls_to_makefiles "${MY_DIR}/proprietary-firmware.txt"
 
 # Finish
 write_footers
-
-if [ -s "${MY_DIR}/../../${VENDOR}/${DEVICE}/proprietary-files.txt" ]; then
-    # Reinitialize the helper for device
-    source "${MY_DIR}/../../${VENDOR}/${DEVICE}/setup-makefiles.sh"
-    setup_vendor "${DEVICE}" "${VENDOR}" "${ANDROID_ROOT}" false
-
-    # Warning headers and guards
-    write_headers
-
-    # The standard device blobs
-    write_makefiles "${MY_DIR}/../../${VENDOR}/${DEVICE}/proprietary-files.txt" true
-
-    if [ -f "${MY_DIR}/../../${VENDOR}/${DEVICE}/proprietary-firmware.txt" ]; then
-        append_firmware_calls_to_makefiles "${MY_DIR}/../../${VENDOR}/${DEVICE}/proprietary-firmware.txt"
-    fi
-
-    # Finish
-    write_footers
-fi
