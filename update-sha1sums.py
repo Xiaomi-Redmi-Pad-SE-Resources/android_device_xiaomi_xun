@@ -78,4 +78,3 @@ else:
     cleanup_mode = False
 
 process_file('proprietary-files.txt', cleanup_mode)
-process_file('proprietary-files-phone.txt', cleanup_mode)

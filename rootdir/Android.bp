@@ -5,13 +5,6 @@
 
 // fstab
 prebuilt_etc {
-    name: "fstab.default",
-    src: "etc/fstab.default",
-    vendor: true,
-    vendor_ramdisk_available: true,
-}
-
-prebuilt_etc {
     name: "fstab.emmc",
     src: "etc/fstab.emmc",
     vendor: true,
@@ -72,12 +65,6 @@ prebuilt_etc {
 sh_binary {
     name: "init.class_main.sh",
     src: "bin/init.class_main.sh",
-    vendor: true,
-}
-
-sh_binary {
-    name: "init.goodix.events.sh",
-    src: "bin/init.goodix.events.sh",
     vendor: true,
 }
 

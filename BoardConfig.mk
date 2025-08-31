@@ -160,9 +160,6 @@ TARGET_PRODUCT_PROP += $(DEVICE_PATH)/configs/properties/product.prop
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/configs/properties/system.prop
 TARGET_SYSTEM_EXT_PROP += $(DEVICE_PATH)/configs/properties/system_ext.prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/configs/properties/vendor.prop
-ifneq ($(TARGET_IS_TABLET),true)
-TARGET_VENDOR_PROP += $(DEVICE_PATH)/configs/properties/vendor_phone.prop
-endif
 
 # Power
 TARGET_TAP_TO_WAKE_NODE := "/proc/tp_gesture"
@@ -170,19 +167,10 @@ TARGET_TAP_TO_WAKE_NODE := "/proc/tp_gesture"
 # Recovery
 BOARD_EXCLUDE_KERNEL_FROM_RECOVERY_IMAGE := true
 TARGET_RECOVERY_DEFAULT_ROTATION := ROTATION_LEFT
-ifneq ($(TARGET_IS_TABLET),true)
-TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.default
-else
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.emmc
-endif
 TARGET_RECOVERY_PIXEL_FORMAT := RGBX_8888
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
-
-# RIL
-ifneq ($(TARGET_IS_TABLET),true)
-ENABLE_VENDOR_RIL_SERVICE := true
-endif
 
 # Security
 BOOT_SECURITY_PATCH := 2025-07-01
@@ -239,11 +227,6 @@ DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
     vendor/lineage/config/device_framework_matrix.xml
 DEVICE_FRAMEWORK_MANIFEST_FILE += $(DEVICE_PATH)/configs/vintf/framework_manifest.xml
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/vintf/manifest.xml
-ifneq ($(TARGET_IS_TABLET),true)
-DEVICE_MANIFEST_FILE += \
-    $(DEVICE_PATH)/configs/vintf/manifest_network.xml \
-    $(DEVICE_PATH)/configs/vintf/manifest_phone.xml
-endif
 DEVICE_MATRIX_FILE := hardware/qcom-caf/common/compatibility_matrix.xml
 
 # WiFi
