@@ -67,7 +67,6 @@ function blob_fixup() {
     case "${1}" in
         odm/etc/*_build.prop)
             [ "$2" = "" ] && return 0
-            sed -i "/marketname/d" "${2}"
             sed -i "s/cert/model/" "${2}"
             ;;
         system_ext/lib64/libwfdmmsrc_system.so)
