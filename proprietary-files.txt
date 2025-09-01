@@ -169,8 +169,6 @@ vendor/etc/init/vendor.qti.battery_stats.rc
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
 vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
-
-# Bluetooth
 vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so
 vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.1-impl.so
 vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so
@@ -184,6 +182,7 @@ vendor/lib64/libbluetooth_audio_session_qti.so
 vendor/lib64/libbluetooth_audio_session_qti_2_1.so
 vendor/lib64/libbt-hidlclient.so
 vendor/lib64/libbtnv.so
+vendor/lib64/libmisight.so
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so
 
@@ -978,17 +977,6 @@ vendor/lib64/qti.video.utils.videobufferlayout.so|8e2e540b33aa39e58529f4eaae9f5a
 # Memory
 vendor/lib/libvmmem.so
 vendor/lib64/libvmmem.so
-
-# Mlipay
-odm/bin/mlipayd@1.1:vendor/bin/mlipayd@1.1
-odm/etc/init/vendor.xiaomi.hardware.mlipay@1.1-service.rc:vendor/etc/init/vendor.xiaomi.hardware.mlipay@1.1-service.rc
-odm/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.mlipay.xml:vendor/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.mlipay.xml
-odm/lib64/libmlipay.so:vendor/lib64/libmlipay.so
-odm/lib64/libmlipay@1.1.so:vendor/lib64/libmlipay@1.1.so
-odm/lib64/libteeclientjni.so:vendor/lib64/libteeclientjni.so
-odm/lib64/libwvkeybox.so:vendor/lib64/libwvkeybox.so
-vendor/lib/libmisight.so
-vendor/lib64/libmisight.so
 
 # Neural
 vendor/lib64/libhta.so
