@@ -521,7 +521,7 @@ vendor/lib64/vendor.qti.diaghal@1.0.so;MODULE_SUFFIX=_vendor
 
 # Display - from topaz
 vendor/bin/hw/vendor.display.color@1.0-service|f3e4123fa5b9d096c1131866eef46ee92da787b5
-vendor/bin/hw/vendor.qti.hardware.display.composer-service|173dce92625beb53ca1afac515670a4e20c92a5a
+vendor/bin/hw/vendor.qti.hardware.display.composer-service|1d64de2b163bf7eeb17b2a4e1f4cac4764e182cb|ad6d8294cef60904190fd486ca9fcdec0c0d505e
 vendor/bin/ppd|e2621c0da901eb3f6b4625cd30b25d9291cb452d
 vendor/bin/qdcmss|319672e6224e42355e3bb1b479bb1284182ab1b9
 vendor/etc/display/advanced_sf_offsets.xml|de6449ddd7fd4e975ae29ce5aeeda1d6dff275ee
@@ -543,7 +543,7 @@ vendor/lib64/libsdedrm.so|368e2be5296c5e18f9e485c2432cdf5256e19be0
 vendor/lib64/libsdm-color.so|680fe545ab05ce4890e2d69b4372bed9dad62c6e
 vendor/lib64/libsdm-colormgr-algo.so|5416176ad6f532de6b6cda33b50b3fe46c6dbc08
 vendor/lib64/libsdm-disp-vndapis.so|29094c69a0fac67b110e4766724ac38fd5cd0f3b
-vendor/lib64/libsdmcore.so|4b115aa7f6898b3167074e066b664b9a512ec8d0
+vendor/lib64/libsdmcore.so|37ec137be1b130479615990c717f8ed946444274|f7ab6fe1b896019555fe244fb094243f8756a4c1
 vendor/lib64/libsdmextension.so|7b0d0be8444eb205dceffeac0d95a8a0f34d5216
 vendor/lib64/libsdmutils.so|87f6287c84f9c35d61bf68885a0a6f414484ed8e
 vendor/lib64/libtinyxml.so|28e4630966506fb1a7faf3c9472febf26d28c858
@@ -932,7 +932,7 @@ vendor/lib/libqc2audio_base.so|3d4c49db8818d81e1fd736bc3f81167347e5d219
 vendor/lib/libqc2audio_basecodec.so|99a4cbd726918cceed827bc0fcadf39f3a6242cb
 vendor/lib/libqc2audio_core.so|0d0c0952313d980f076171cf3136fc5a95ebd173
 vendor/lib/libqc2audio_hooks.so|f4229ac42d2ae7dbadeabbcda254a30d1d0c6d63
-vendor/lib/libqc2audio_hwaudiocodec.so;DISABLE_CHECKELF|9b5ee0a4f556fe357c33f50b0bba877e3bde2083
+vendor/lib/libqc2audio_hwaudiocodec.so;DISABLE_CHECKELF|f7188779e55ff4878bd2aae0f44d0adbf98cbad4|d66c34cc990ffe943245a3bda2b2ee111e8d2f2f
 vendor/lib/libqc2audio_platform.so|0455c24d825967b6cf2e89dfe1419d745609e0f1
 vendor/lib/libqc2audio_swaudiocodec.so|1e2ca8e31bd7a91057c84a96a4d2f573d7a4a2f4
 vendor/lib/libqc2audio_utils.so|4b36c58d1b6e08e72a3621062f7e7974685f656d
@@ -956,7 +956,7 @@ vendor/lib64/libqc2audio_base.so|00779587ada038abace9daad256a6a174f435067
 vendor/lib64/libqc2audio_basecodec.so|ea470367efc95c4f3678e341fead458494c147e5
 vendor/lib64/libqc2audio_core.so|ef04cb2507e9dd21127b64497d79da976cb1d4d6
 vendor/lib64/libqc2audio_hooks.so|a1bfa6547820ecb8023c87aea8b5dc3e58eab4e8
-vendor/lib64/libqc2audio_hwaudiocodec.so;DISABLE_CHECKELF|8252596ea5e26e4f8373d192fd5ae4ff3ac589e1
+vendor/lib64/libqc2audio_hwaudiocodec.so;DISABLE_CHECKELF|ed4f3a4ec7a0a9a5a2f460252c2493d03046ce12|479005186c56ec2bb299c87e01b58c8b676b4f10
 vendor/lib64/libqc2audio_platform.so|fcfcacfaf9fae2c18f7f1b5a563a5863a70dcfd5
 vendor/lib64/libqc2audio_swaudiocodec.so|48fa31f663a7558f575cb99aab4d41aa0aa8b649
 vendor/lib64/libqc2audio_utils.so|2d532831983585308dc5623ac7a78210d0232ce2
@@ -1369,10 +1369,10 @@ vendor/lib/hw/vendor.qti.hardware.servicetracker@1.2-impl.so
 vendor/lib64/hw/vendor.qti.hardware.servicetracker@1.2-impl.so
 
 # SKU properties
-odm/etc/xuncs_build.prop
-odm/etc/xunes_build.prop
-odm/etc/xungs_build.prop
-odm/etc/xunis_build.prop
+odm/etc/xuncs_build.prop|e882e739d357dc0257b77c8ae7975c5bc26058c6|da1b342474595d1385035eb875c4a852cd3f3df0
+odm/etc/xunes_build.prop|b9a8e1a5907940c4781b118dc075503c9de5acef|c49f22ebd665e2e3c9070a5a184860dde7454e0d
+odm/etc/xungs_build.prop|f9ce76a54ef8abbf414df9f895b922be6a5a5e06|913f44f272354a3973da6b4a07a7c15cf0c00dd9
+odm/etc/xunis_build.prop|1cefcca7d5812c4bf30ea6eba26cd43a502a6bac|50572720c43708e785aa275d584dcbc38afce65e
 
 # Soter
 vendor/bin/hw/vendor.qti.hardware.soter@1.0-service
