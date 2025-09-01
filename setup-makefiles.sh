@@ -47,6 +47,7 @@ function lib_to_package_fixup_vendor_variants() {
         com.qualcomm.qti.dpm.api@1.0 | \
             vendor.qti.diaghal@1.0 | \
             vendor.qti.hardware.fm@1.0 | \
+            vendor.qti.hardware.dpmservice@1.0 | \
             vendor.qti.hardware.qccsyshal@1.0 | \
             vendor.qti.hardware.qccsyshal@1.1 | \
             vendor.qti.hardware.qccsyshal@1.2 | \
