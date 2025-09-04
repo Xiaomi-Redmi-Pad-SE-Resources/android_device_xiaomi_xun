@@ -7,9 +7,6 @@ arm64.memtag.process.system_server=off
 # Ftrace
 persist.debug.ftrace_events_disable=Yes
 
-# Fingerprint
-sys.fp.miui.token=0
-
 # Fwk-Detect
 ro.vendor.qti.va_aosp.support=1
 
@@ -40,9 +37,6 @@ media.stagefright.enable-scan=true
 media.stagefright.thumbnail.prefer_hw_codecs=true
 ro.media.recorder-max-base-layer-fps=60
 
-# NFC
-ro.nfc.port=I2C
-
 # NTP
 persist.backup.ntpServer="0.pool.ntp.org"
 
@@ -58,9 +52,6 @@ persist.vendor.ssr.restart_level=ALL_ENABLE
 
 # Updater
 lineage.updater.uri=https://raw.githubusercontent.com/roms-experimental/OTA/refs/heads/lineageos/xun.json
-
-# USB
-ro.boot.usb.dwc3_msm=4e00000.ssusb
 
 # Wi-Fi Display
 persist.debug.wfd.enable=1
