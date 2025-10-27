@@ -65,10 +65,6 @@ vendor/lib64/libqtigefar.so
 vendor/lib64/vendor.qti.hardware.pal@1.0-impl.so
 
 # Audio configs
-odm/etc/audio_policy_engine_configuration_mi.xml:odm/etc/audio_policy_engine_configuration.xml
-odm/etc/audio_policy_engine_default_stream_volumes.xml
-odm/etc/audio_policy_engine_product_strategies.xml
-odm/etc/audio_policy_engine_stream_volumes.xml
 vendor/etc/audio_diag.cfg
 vendor/etc/audio_effects.conf
 vendor/etc/audio_policy_engine_configuration_mi.xml:vendor/etc/audio_policy_engine_configuration.xml
