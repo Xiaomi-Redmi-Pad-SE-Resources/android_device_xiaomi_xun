@@ -51,8 +51,6 @@ vendor/lib64/vendor.qti.hardware.alarm@1.0.so
 vendor/lib64/hw/com.dsi.ant@1.0-impl.so
 
 # Audio
-system_ext/etc/permissions/audiosphere.xml
-system_ext/framework/audiosphere.jar
 vendor/lib64/hw/audio.primary.bengal.so;DISABLE_CHECKELF
 vendor/lib64/libAlacSwDec.so
 vendor/lib64/libApeSwDec.so
@@ -82,17 +80,8 @@ vendor/etc/card-defs.xml
 vendor/etc/microphone_characteristics.xml
 vendor/etc/mixer_paths_bengal_idp.xml
 vendor/etc/mixer_paths_bengal_idp_india.xml
-vendor/etc/mixer_paths_bengal_qrd.xml
-vendor/etc/mixer_paths_scubaidp.xml
-vendor/etc/mixer_paths_scubaqrd.xml
 vendor/etc/resourcemanager_bengal_idp.xml
-vendor/etc/resourcemanager_bengal_idp_arrax.xml
-vendor/etc/resourcemanager_bengal_qrd.xml
-vendor/etc/resourcemanager_bengal_qrd_arrax.xml
-vendor/etc/resourcemanager_scubaidp.xml
-vendor/etc/resourcemanager_scubaqrd.xml
 vendor/etc/usecaseKvManager.xml
-vendor/etc/usecaseKvManager_arrax.xml
 
 # Audio Dolby
 vendor/bin/hw/vendor.dolby.hardware.dms@2.0-service
