@@ -4,16 +4,6 @@
 # ACDB
 vendor/etc/acdbdata/bengal_idp/IDP_acdb_cal.acdb
 vendor/etc/acdbdata/bengal_idp/IDP_workspaceFileXml.qwsp
-vendor/etc/acdbdata/bengal_idp_arrax/IDP_arrax_acdb_cal.acdb
-vendor/etc/acdbdata/bengal_idp_arrax/IDP_arrax_workspaceFileXml.qwsp
-vendor/etc/acdbdata/bengal_qrd/QRD_acdb_cal.acdb
-vendor/etc/acdbdata/bengal_qrd/QRD_workspaceFileXml.qwsp
-vendor/etc/acdbdata/bengal_qrd_arrax/QRD_arrax_acdb_cal.acdb
-vendor/etc/acdbdata/bengal_qrd_arrax/QRD_arrax_workspaceFileXml.qwsp
-vendor/etc/acdbdata/bengal_scubaidp/IDP_scuba_acdb_cal.acdb
-vendor/etc/acdbdata/bengal_scubaidp/IDP_scuba_workspaceFileXml.qwsp
-vendor/etc/acdbdata/bengal_scubaqrd/QRD_scuba_acdb_cal.acdb
-vendor/etc/acdbdata/bengal_scubaqrd/QRD_scuba_workspaceFileXml.qwsp
 vendor/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__eai_1.00.pmd
 vendor/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__eai_1.10.pmd
 vendor/etc/acdbdata/nn_ns_models/fai__2.2.0_0.1__3.0.0_0.0__eai_1.00.pmd
