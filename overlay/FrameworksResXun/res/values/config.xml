@@ -508,4 +508,12 @@
     <!-- Indicate whether closing the lid causes the device to go to sleep and opening
          it causes the device to wake up. The default is false. -->
     <bool name="config_lidControlsSleep">true</bool>
+
+    <!-- If device supports corner radius on windows.
+         This should be turned off on low-end devices to improve animation performance. -->
+    <bool name="config_supportsRoundedCornersOnWindows">false</bool>
+
+    <!-- Whether WM DisplayContent supports high performance transitions
+         (lower-end devices may want to disable) -->
+    <bool name="config_deviceSupportsHighPerfTransitions">false</bool>
 </resources>
