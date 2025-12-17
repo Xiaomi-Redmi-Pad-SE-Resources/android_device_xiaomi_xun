@@ -201,9 +201,8 @@ PRODUCT_PACKAGES += \
 $(call soong_config_set,libinit,vendor_init_lib,//$(LOCAL_PATH):init_xiaomi_bengal)
 
 # Kernel
-LOCAL_KERNEL := $(KERNEL_PATH)/kernel
 PRODUCT_COPY_FILES += \
-	$(LOCAL_KERNEL):kernel
+	$(KERNEL_PATH)/kernel:kernel
 
 # Keymint
 PRODUCT_PACKAGES += \
