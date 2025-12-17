@@ -72,9 +72,10 @@ blob_fixups: blob_fixups_user_type = {
         .add_needed('android.hardware.security.rkp-V3-ndk.so'),
     (
         'vendor/lib64/hw/displayfeature.default.so',
+        'vendor/lib64/libcodec2_soft_ac4dec.so',
+        'vendor/lib64/libcodec2_soft_ddpdec.so',
         'vendor/lib64/libdlbdsservice.so',
         'vendor/lib64/libdlbpreg.so',
-        'vendor/lib64/libqc2audio_hwaudiocodec.so',
         'vendor/lib64/soundfx/libdlbvol.so',
         'vendor/lib64/soundfx/libhwdap.so',
     ): blob_fixup()
