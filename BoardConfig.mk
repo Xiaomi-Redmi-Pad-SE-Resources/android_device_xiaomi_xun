@@ -47,9 +47,6 @@ AUDIO_FEATURE_ENABLED_SVA_MULTI_STAGE := true
 BOARD_SUPPORTS_SOUND_TRIGGER := true
 BOARD_USES_ALSA_AUDIO := true
 
-# Boot control
-$(call soong_config_set, ufsbsg, ufsframework, bsg)
-
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := bengal
 
