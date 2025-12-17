@@ -40,6 +40,9 @@ ro.media.recorder-max-base-layer-fps=60
 # NTP
 persist.backup.ntpServer="0.pool.ntp.org"
 
+# Property
+ro.product.property_source_order=odm,product,vendor,system_ext,system
+
 # SdCardFS
 persist.sys.fuse.passthrough.enable=true
 
@@ -49,9 +52,6 @@ persist.vendor.sensors.enable.mag_filter=true
 # SSR
 persist.vendor.ssr.enable_ramdumps=1
 persist.vendor.ssr.restart_level=ALL_ENABLE
-
-# Updater
-lineage.updater.uri=https://raw.githubusercontent.com/roms-experimental/OTA/refs/heads/lineageos/xun.json
 
 # Wi-Fi Display
 persist.debug.wfd.enable=1
