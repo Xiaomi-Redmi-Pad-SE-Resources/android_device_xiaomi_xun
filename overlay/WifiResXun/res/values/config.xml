@@ -7,4 +7,25 @@
 <resources>
     <!-- Indicate the driver support NL80211_REG_CHANGED event. -->
     <bool name="config_wifiDriverSupportedNl80211RegChangedEvent">true</bool>
+
+    <!-- Boolean indicating whether the wifi chipset supports background scanning mechanism.
+         This mechanism allows the host to remain in suspend state and the dongle to actively
+         scan and wake the host when a configured SSID is detected by the dongle. This chipset
+         capability can provide power savings when wifi needs to be always kept on. -->
+    <bool name="config_wifi_background_scan_support">true</bool>
+
+    <!-- Indicates that connected MAC randomization is supported on this device -->
+    <bool name="config_wifi_connected_mac_randomization_supported">true</bool>
+
+    <!-- Boolean indicating whether the wifi chipset has dual frequency band support -->
+    <bool name="config_wifi_dual_band_support">true</bool>
+
+    <!-- True if the firmware supports p2p MAC randomization -->
+    <bool name="config_wifi_p2p_mac_randomization_supported">true</bool>
+
+    <!-- Enable ACS (auto channel selection) for Wifi hotspot (SAP) -->
+    <bool name="config_wifi_softap_acs_supported">true</bool>
+
+    <!-- Enable 802.11ac for Wifi hotspot (SAP) -->
+    <bool name="config_wifi_softap_ieee80211ac_supported">true</bool>
 </resources>
