@@ -238,6 +238,13 @@ PRODUCT_PACKAGES += \
 # Overlays
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
+PRODUCT_PACKAGES += \
+    FrameworksResXun \
+    SettingsProviderResXun \
+    SettingsResXun \
+    SystemUIResXun \
+    WifiResXun
+
 # Overlays Lineage
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-lineage
