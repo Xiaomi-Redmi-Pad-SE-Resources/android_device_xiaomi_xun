@@ -1,2 +1,0 @@
-# Touch
-type sysfs_tp_touchfeature, fs_type, sysfs_type;
