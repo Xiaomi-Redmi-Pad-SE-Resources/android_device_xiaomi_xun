@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from xun OS2.0.204.0.VMUMIXM
+# All unpinned blobs below are extracted from xun OS2.0.206.0.VMUMIXM
 
 abl.img;AB
 bluetooth.img;AB

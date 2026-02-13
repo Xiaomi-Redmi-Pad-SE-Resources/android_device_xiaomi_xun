@@ -23,8 +23,8 @@ PRODUCT_MODEL := Redmi Pad SE
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="missi-user 15 AQ3A.240829.003 OS2.0.205.0.VMUMIXM release-keys" \
-    BuildFingerprint=Redmi/xun_global/xun:13/TKQ1.221114.001/OS2.0.205.0.VMUMIXM:user/release-keys
+    BuildDesc="missi-user 15 AQ3A.240829.003 OS2.0.206.0.VMUMIXM release-keys" \
+    BuildFingerprint=Redmi/xun_global/xun:15/AQ3A.240829.003/OS2.0.206.0.VMUMIXM:user/release-keys
 
 # Time
 LINEAGE_VERSION_APPEND_TIME_OF_DAY := true
