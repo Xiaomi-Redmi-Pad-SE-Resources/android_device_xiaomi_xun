@@ -1,5 +1,5 @@
 # Unpinned blobs from xun OS2.0.206.0.VMUMIXM
-# muyu: OS3.0.4.0.WOYMIXM
+# muyu: OS3.0.7.0.WOYMIXM
 # topaz: OS2.0.203.0.VMGEUXM
 
 # ACDB
@@ -1250,7 +1250,7 @@ system_ext/lib64/libwfduibcsrc.so|d4c86e85be9622eca5cb5e095c6ec935e5c7d86a
 system_ext/lib64/libwfduibcsrcinterface.so|587457b2a5f33f996966f2d35ec4af421a6ea6df
 system_ext/lib64/vendor.qti.hardware.wifidisplaysession@1.0.so|2b2563450ad6a8d46d5648b97f63f87c5d9983ca
 system_ext/lib64/vendor.qti.hardware.wifidisplaysession_aidl-V1-ndk.so|58cd9358df40aa16ddf0e603b736c58588623b9e
-system_ext/priv-app/WfdService/WfdService.apk|3a935e37a27178d8703b6c32c08e0690042fb7b0
+system_ext/priv-app/WfdService/WfdService.apk|ccc5d2c44b6368bac49726a15283b69f7a20af40
 
 # WiFi Display (vendor)
 vendor/bin/wfdhdcphalservice
