@@ -628,26 +628,26 @@ vendor/lib64/libsys_info_cache.so
 vendor/lib64/libtzdrmgenprov.so
 vendor/lib64/libxtadapter.so
 
-# Graphics - from topaz
-product/app/com.xiaomi.ugd/com.xiaomi.ugd.apk|65e7aa518afab30a40cf2256b4ee001dfbc28536
-vendor/lib64/egl/eglSubDriverAndroid.so|167c573149e046b23280cba9f778861f5f6a5a0c
-vendor/lib64/egl/libEGL_adreno.so;SYMLINK=vendor/lib64/libEGL_adreno.so|579730142b5d41bd890530861cb8efdeef4b83e9
-vendor/lib64/egl/libGLESv1_CM_adreno.so|29a64765d2b5d35261ec98ed68031d5699954307
-vendor/lib64/egl/libGLESv2_adreno.so;SYMLINK=vendor/lib64/libGLESv2_adreno.so|529a1d2b518c09e866ac52c694c32860c0c74963
-vendor/lib64/egl/libVkLayer_ADRENO_qprofiler.so|98f98fa89be66223d7bd947cf5053e4f2e559f94
-vendor/lib64/egl/libq3dtools_adreno.so;SYMLINK=vendor/lib64/libq3dtools_adreno.so|7b1bca9132cb906613aac175b2fa9cc3eda3a55f
-vendor/lib64/egl/libq3dtools_esx.so|93974764c2005652567000d5ef1f179068a237ab
-vendor/lib64/libCB.so|4466da00c06c6b3b672f3a1e9f4fabec620b759d
-vendor/lib64/libOpenCL.so|454b8aaada3a5c449ae90e2232eb761e743fda06
-vendor/lib64/libadreno_app_profiles.so|f17550ca7dce0c9ae3a506e8a8ff6916727af9b3
-vendor/lib64/libadreno_utils.so|9e87362eff9975faffa65c84b72a83741f36fd52
-vendor/lib64/libgsl.so|b4b1166a18c3ab3953053beeeb167c3ebf73504f
-vendor/lib64/libkcl.so|ad63aa313cb0314e31f027f57feeb2b4560113d2
-vendor/lib64/libkernelmanager.so|778cbe685314e62239e92b07d581eef0e9c693e7
-vendor/lib64/libllvm-glnext.so|67b912f0c6caa21069a8eb185667e6cb3b46405c
-vendor/lib64/libllvm-qcom.so|210fdef3513ca2dc022e54b50779c0024a6c6730
-vendor/lib64/libllvm-qgl.so|5e93a9eb4e9c6f77643ebf53b6cd8b894449c6e1
-vendor/lib64/libqdutils.so|a1ed1b97393c29eda5daa2466f9e8b82f9120c58
+# Graphics
+product/app/com.xiaomi.ugd/com.xiaomi.ugd.apk
+vendor/lib64/egl/eglSubDriverAndroid.so
+vendor/lib64/egl/libEGL_adreno.so;SYMLINK=vendor/lib64/libEGL_adreno.so
+vendor/lib64/egl/libGLESv1_CM_adreno.so
+vendor/lib64/egl/libGLESv2_adreno.so;SYMLINK=vendor/lib64/libGLESv2_adreno.so
+vendor/lib64/egl/libVkLayer_ADRENO_qprofiler.so
+vendor/lib64/egl/libq3dtools_adreno.so;SYMLINK=vendor/lib64/libq3dtools_adreno.so
+vendor/lib64/egl/libq3dtools_esx.so
+vendor/lib64/libCB.so
+vendor/lib64/libOpenCL.so
+vendor/lib64/libadreno_app_profiles.so
+vendor/lib64/libadreno_utils.so
+vendor/lib64/libgsl.so
+vendor/lib64/libkcl.so
+vendor/lib64/libkernelmanager.so
+vendor/lib64/libllvm-glnext.so
+vendor/lib64/libllvm-qcom.so
+vendor/lib64/libllvm-qgl.so
+vendor/lib64/libqdutils.so
 
 # Graphics firmware
 vendor/firmware/a610_zap.b00
