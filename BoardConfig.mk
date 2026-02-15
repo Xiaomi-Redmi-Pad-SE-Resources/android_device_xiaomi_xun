@@ -171,6 +171,7 @@ BOOT_SECURITY_PATCH := 2025-12-01
 VENDOR_SECURITY_PATCH := $(BOOT_SECURITY_PATCH)
 
 # Sepolicy
+TARGET_XIAOMI_SEPOLICY_DIR := bengal_515
 include device/qcom/sepolicy_vndr/SEPolicy.mk
 include hardware/xiaomi/sepolicy/qti/SEPolicy.mk
 
