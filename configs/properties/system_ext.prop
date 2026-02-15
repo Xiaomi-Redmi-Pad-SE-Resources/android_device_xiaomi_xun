@@ -12,9 +12,6 @@ persist.bluetooth.leaudio.notify.idle.during.call=true
 persist.vendor.bt.a2dp_offload_cap=sbc-aptx-aptxtws-aptxhd-aac-ldac
 ro.bluetooth.leaudio_offload.supported=true
 
-# Dalvik
-dalvik.vm.dex2oat64.enabled=true
-
 # GPS
 persist.sys.gps.fence=true
 
