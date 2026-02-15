@@ -449,44 +449,46 @@ vendor/lib64/libdiag.so
 vendor/lib64/libdiagjni.so
 vendor/lib64/vendor.qti.diaghal@1.0.so;MODULE_SUFFIX=_vendor
 
-# Display (Features) - from topaz
-vendor/bin/hw/vendor.xiaomi.hardware.displayfeature@1.0-service|75eded86a9b46065043395a7217671c3c3ca9bdf|c4ccfc9c9f293c6cf6b9141448668435da2e3f65
-vendor/bin/displayfeature|5b50c28b4dc15869a37bc5861b02a107d77cd8b2
-vendor/etc/init/vendor.xiaomi.hardware.displayfeature@1.0-service.rc|b231f52856c5df13ad0f1382dbea11f89423bd99
-vendor/lib64/hw/displayfeature.default.so|ee91afa68f9479c0f77eff3f8ad66a294a72669d|cc0161db5b3b5f6538913de6f737a108c30dc364
-vendor/lib64/hw/vendor.xiaomi.hardware.displayfeature@1.0-impl.so|c20609b90f869c08eeea025b957bafb3a236ce99|321e5d07b56aff03735e3a10ef2dc97852f4f91e
-vendor/lib64/libdisplayfeature.so|fa388f0c95f9df1b8154f38d64efd9586abff0c0
-vendor/lib64/libdisplayfeatureservice.so|16412914253b8dfa93530b014b3586c0f83f9c47|77efa5792414072eb9f9e5d5abb01d1458678f0e
-vendor/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so:vendor/lib64/libvendor.xiaomi.hardware.displayfeature@1.0.so;FIX_SONAME|ed8c07104bafeafc387d82846c8e4db7c9288fa7|95242c590f03eb5c87fc3cc11654420c314083d5
+# Display (Features)
+vendor/bin/hw/vendor.xiaomi.hardware.displayfeature@1.0-service
+vendor/bin/displayfeature
+vendor/etc/init/vendor.xiaomi.hardware.displayfeature@1.0-service.rc
+vendor/lib64/hw/displayfeature.default.so
+vendor/lib64/hw/vendor.xiaomi.hardware.displayfeature@1.0-impl.so
+vendor/lib64/libdisplayfeature.so
+vendor/lib64/libdisplayfeatureservice.so
+vendor/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so:vendor/lib64/libvendor.xiaomi.hardware.displayfeature@1.0.so;FIX_SONAME
 
-# Display (HDR) - from topaz
-vendor/lib64/libhdr_tm.so|0bd53cf134df3648443a69f69106cb75260c65e2
+# Display (HDR)
+vendor/lib64/libhdr_tm.so
 
 # Display (HWC) - from topaz
 vendor/bin/hw/vendor.qti.hardware.display.composer-service;REQUIRED=vendor.qti.hardware.display.composer-service.rc,vendor.qti.hardware.display.composer-service.xml|1d64de2b163bf7eeb17b2a4e1f4cac4764e182cb|ad6d8294cef60904190fd486ca9fcdec0c0d505e
-vendor/bin/qdcmss|319672e6224e42355e3bb1b479bb1284182ab1b9
-vendor/etc/init/qdcmss.rc|53d78d686678c4f923a9ec4ace7d4d3575b13788
-vendor/lib64/libdisplayconfig.qti.so|3e1fbeb87573dd8cfc320a96e795abd96c24cbea
-vendor/lib64/libdisplaydebug.so|3de7e593df71ffc688bcf8282770ad24cf5b7390
-vendor/lib64/libdpps.so|4633ac81978802aa7cd6bf50f2fbf096c9af52e3|8b3bb7a9cc9910c0beb17134a7adf46e85b571ed
-vendor/lib64/libhistogram.so|8f816250ce1c7c98ff3bad8a0c107236a24917c9
-vendor/lib64/libqdutils.so|a1ed1b97393c29eda5daa2466f9e8b82f9120c58
-vendor/lib64/libsdedrm.so|368e2be5296c5e18f9e485c2432cdf5256e19be0
-vendor/lib64/libsdmcore.so|37ec137be1b130479615990c717f8ed946444274|f7ab6fe1b896019555fe244fb094243f8756a4c1
-vendor/lib64/libsdmutils.so|87f6287c84f9c35d61bf68885a0a6f414484ed8e
-vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so|e64d9000c959942bb0bf7455944cbc112e0b0caa
 
-# Display (SDM) - from topaz
-vendor/lib64/libdisplayqos.so|df22ea60ab10e132f929f4e501238bcd5960f7d4
-vendor/lib64/libdisplayskuutils.so|62071b85fc68d96c7cb673755810c2ff4c69aefe
-vendor/lib64/libqseed3.so|729177a209f7e0c32887e4666272fa75bd42b253
-vendor/lib64/librcmask.so|9ee0421e7a0237aa570fdfd5ae949e130e95581a
-vendor/lib64/libsdm-color.so|680fe545ab05ce4890e2d69b4372bed9dad62c6e
-vendor/lib64/libsdm-colormgr-algo.so|5416176ad6f532de6b6cda33b50b3fe46c6dbc08
-vendor/lib64/libsdm-disp-vndapis.so|29094c69a0fac67b110e4766724ac38fd5cd0f3b
-vendor/lib64/libsdmextension.so|7b0d0be8444eb205dceffeac0d95a8a0f34d5216
-vendor/lib64/libtinyxml.so|28e4630966506fb1a7faf3c9472febf26d28c858
-vendor/lib64/libtinyxml2_1.so|5499ace9f52b0e625613cfffaa612a62aa4a48ff
+# Display (HWC)
+vendor/bin/qdcmss
+vendor/etc/init/qdcmss.rc
+vendor/lib64/libdisplayconfig.qti.so
+vendor/lib64/libdisplaydebug.so
+vendor/lib64/libdpps.so
+vendor/lib64/libhistogram.so
+vendor/lib64/libqdutils.so
+vendor/lib64/libsdedrm.so
+vendor/lib64/libsdmcore.so
+vendor/lib64/libsdmutils.so
+vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so
+
+# Display (SDM)
+vendor/lib64/libdisplayqos.so
+vendor/lib64/libdisplayskuutils.so
+vendor/lib64/libqseed3.so
+vendor/lib64/librcmask.so
+vendor/lib64/libsdm-color.so
+vendor/lib64/libsdm-colormgr-algo.so
+vendor/lib64/libsdm-disp-vndapis.so
+vendor/lib64/libsdmextension.so
+vendor/lib64/libtinyxml.so
+vendor/lib64/libtinyxml2_1.so
 
 # Display postprocessing
 vendor/bin/hw/vendor.display.color@1.0-service
@@ -971,28 +973,27 @@ vendor/etc/seccomp_policy/wfdhdcphalservice.policy
 vendor/etc/seccomp_policy/wfdvndservice.policy
 vendor/etc/seccomp_policy/wifidisplayhalservice.policy
 
-# Sensors - from topaz
-vendor/bin/init.qcom.sensors.sh|454c6de8c65b9ad1c41f063544871a4ba0665689
-vendor/bin/sensors.qti|3e18098f9626ad5c225efec2ae373301761738e8
-vendor/bin/sscrpcd|ee109b10fdf7a5db7f6e92596d62acd1c95b1b74
-vendor/etc/init/init.vendor.sensors.rc|8d286f50fd261dc8843c6a208386b535cc07641e
-vendor/etc/init/vendor.sensors.qti.rc|f34fc966af816b50f10ae7520b33863961a14478
-vendor/etc/init/vendor.sensors.sscrpcd.rc|df52901f1ad0fbc97d6070e28896a6be40154814
-vendor/lib64/libsensorcal.so|ded3d3f2d25a69ceebd9f8e44418a633920e8f6f
-vendor/lib64/libsensorslog.so|b0e604866307ee1946ec5a1f29005d4fc59f6936
-vendor/lib64/libsnpe_dsp_domains_v2.so|f892fe7c5dc4020890541bdfacd5c1845feacf2b
-vendor/lib64/libsns_device_mode_stub.so|87966df920037008da550bb6a532c270db0e45b0
-vendor/lib64/libsns_fastRPC_util.so|089521ea311d234837ed107900ea7465a8ea0b4c
-vendor/lib64/libsns_low_lat_stream_stub.so|319cd47ac1fea8f3495973d89a08e31ddbd9855e
-vendor/lib64/libsns_registry_skel.so|b4ebf2a84aae187330512fdb01a49280b8ccadff
-vendor/lib64/libsnsapi.so|239ffcdf009d6dce037c4fd925ac7d8ec04dee90
-vendor/lib64/libsnsdiaglog.so|45d0d230936fc3c8d1bd292d7cf884075a150cc1
-vendor/lib64/libssc.so|31cf8af61682daaf7ce1ed9abc0e3795edde1145
-vendor/lib64/libssc_default_listener.so|8d2def9e036d550a6bc60e577b5ccb44b84bc7e3
-vendor/lib64/libsysmon_cdsp_skel.so|6cec81f8efbe32c8e5a3440ede30e442a041798e
-vendor/lib64/libsystem_health_mon.so|cc31b98aedb78c018689e8942eb534751f87ad11
-vendor/lib64/sensors.ssc.so|7600b8522c62f0845f8ca8738962cb2292858892
-vendor/lib64/sns_client_example.so|899ffacbc4aa0e9b5c5f6d2f85bef91971104d7e
+# Sensors
+vendor/bin/init.qcom.sensors.sh
+vendor/bin/sensors.qti
+vendor/bin/sscrpcd
+vendor/etc/init/init.vendor.sensors.rc
+vendor/etc/init/vendor.sensors.qti.rc
+vendor/etc/init/vendor.sensors.sscrpcd.rc
+vendor/lib64/libsensorcal.so
+vendor/lib64/libsensorslog.so
+vendor/lib64/libsnpe_dsp_domains_v2.so
+vendor/lib64/libsns_device_mode_stub.so
+vendor/lib64/libsns_fastRPC_util.so
+vendor/lib64/libsns_low_lat_stream_stub.so
+vendor/lib64/libsns_registry_skel.so
+vendor/lib64/libsnsapi.so
+vendor/lib64/libsnsdiaglog.so
+vendor/lib64/libssc.so
+vendor/lib64/libssc_default_listener.so
+vendor/lib64/libsysmon_cdsp_skel.so
+vendor/lib64/libsystem_health_mon.so
+vendor/lib64/sensors.ssc.so
 
 # Sensors Calibrations
 vendor/bin/hw/vendor.qti.hardware.sensorscalibrate@1.0-service
